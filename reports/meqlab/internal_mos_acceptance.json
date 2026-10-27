@@ -1,0 +1,69 @@
+{
+  "started": "2026-10-26T18:56:02.400469+08:00",
+  "purpose": "MCP connection and checkpoint acceptance using a diagnostic MOS control; NOT a GaN fitting result",
+  "checks": {
+    "handshake": true,
+    "data_source_registered": true,
+    "parameter_readback": true,
+    "finite_nonzero_simulation": true,
+    "parameter_changes_curve": true,
+    "model_card_export": true,
+    "checkpoint_parameter_restored": true,
+    "checkpoint_simulation_restored": true
+  },
+  "initialize": {
+    "protocolVersion": "2024-11-05",
+    "capabilities": {
+      "experimental": {},
+      "prompts": {
+        "listChanged": false
+      },
+      "resources": {
+        "subscribe": false,
+        "listChanged": false
+      },
+      "tools": {
+        "listChanged": false
+      }
+    },
+    "serverInfo": {
+      "name": "primarius-modeling",
+      "version": "1.26.0"
+    }
+  },
+  "discovery": {
+    "tool_count": 49,
+    "resource_count": 6,
+    "prompt_count": 6
+  },
+  "max_current_change_A": 0.026376999999999998,
+  "parameter_values": {
+    "kp_low": 4e-05,
+    "kp_high": 8e-05
+  },
+  "checkpoint": {
+    "model_card": ".\\outputs\\MeQLab_Local_Integration\\results\\acceptance_01\\checkpoint_assets\\mos_control.l",
+    "data_file": "<LOCAL_RUNTIME>\\data\\dfo_dc_smoke_v2.pms",
+    "simulator": "Internal",
+    "expected_parameter": {
+      "kp": 8e-05
+    },
+    "expected_simulation_file": ".\\outputs\\MeQLab_Local_Integration\\results\\acceptance_01\\control_high_kp\\W=50.0_L=0.15_T=25.0_0.dat",
+    "replayed_simulation_file": ".\\outputs\\MeQLab_Local_Integration\\results\\acceptance_01\\control_replayed\\W=50.0_L=0.15_T=25.0_0.dat"
+  },
+  "checkpoint_max_difference": 0.0,
+  "status": "passed",
+  "ended": "2026-10-26T18:56:37.752431+08:00",
+  "sessions": [
+    {
+      "phase": "first_session",
+      "tool_calls": 14,
+      "tool_successes": 14
+    },
+    {
+      "phase": "replay_session",
+      "tool_calls": 10,
+      "tool_successes": 10
+    }
+  ]
+}

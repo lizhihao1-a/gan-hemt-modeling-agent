@@ -1,0 +1,1371 @@
+{
+  "date": "2026-10-27",
+  "note": "Curated team export. Changes from original include path redaction, portable bootstrap, handoff README, optional environment license support, export-directory boundaries and archived-baseline lookup. Historical acceptance is not a new run. Software binaries, licenses and proprietary packages are excluded.",
+  "files": [
+    {
+      "source": "outputs/GaN_HEMT_Prepared/curve_preview.html",
+      "destination": "outputs/GaN_HEMT_Prepared/curve_preview.html",
+      "original_sha256": "a0e1e0e01c01b40618d7d0c6fccfeb9e0272ee1eda10f73bb21c947d49a759c2",
+      "export_sha256": "a0e1e0e01c01b40618d7d0c6fccfeb9e0272ee1eda10f73bb21c947d49a759c2",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/curve_summary.csv",
+      "destination": "outputs/GaN_HEMT_Prepared/curve_summary.csv",
+      "original_sha256": "b702a1e67fd2c3cf85c863a03d0ba1671c78e65b7d6b488ae9ff14e3dd984063",
+      "export_sha256": "b702a1e67fd2c3cf85c863a03d0ba1671c78e65b7d6b488ae9ff14e3dd984063",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/data/by_device/DFO_4x50.csv",
+      "destination": "outputs/GaN_HEMT_Prepared/data/by_device/DFO_4x50.csv",
+      "original_sha256": "fc46425b15d8b3e7f50cdf136b41a690548b4c890fbddee979806f24fe0ea643",
+      "export_sha256": "fc46425b15d8b3e7f50cdf136b41a690548b4c890fbddee979806f24fe0ea643",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/data/by_device/GS65030.csv",
+      "destination": "outputs/GaN_HEMT_Prepared/data/by_device/GS65030.csv",
+      "original_sha256": "86e825cdb21f525cf7305a688e8153b1ee6d84fcc0f43d7c5496461b3ce8802a",
+      "export_sha256": "86e825cdb21f525cf7305a688e8153b1ee6d84fcc0f43d7c5496461b3ce8802a",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/data/by_device/TLN2.csv",
+      "destination": "outputs/GaN_HEMT_Prepared/data/by_device/TLN2.csv",
+      "original_sha256": "65b9a5a2df8e9ed0afe89ae2aedc0a0b75af28043cdd328aeff58dbacd9a03c7",
+      "export_sha256": "65b9a5a2df8e9ed0afe89ae2aedc0a0b75af28043cdd328aeff58dbacd9a03c7",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/data/unified_measurements.csv",
+      "destination": "outputs/GaN_HEMT_Prepared/data/unified_measurements.csv",
+      "original_sha256": "934bd430b477ce64dc68d2e00e9f34ad630954f0704629f04371d1698da89217",
+      "export_sha256": "934bd430b477ce64dc68d2e00e9f34ad630954f0704629f04371d1698da89217",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/data_gaps.csv",
+      "destination": "outputs/GaN_HEMT_Prepared/data_gaps.csv",
+      "original_sha256": "d51f72573e43f9b11616a60c53a4515db76f170c6c98c4b0e582511e38ec71a9",
+      "export_sha256": "d51f72573e43f9b11616a60c53a4515db76f170c6c98c4b0e582511e38ec71a9",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/data_gaps.md",
+      "destination": "outputs/GaN_HEMT_Prepared/data_gaps.md",
+      "original_sha256": "d3355733546099dac0cb1fae5aaa11811c03f590119c227cea3dea3654b5592f",
+      "export_sha256": "d3355733546099dac0cb1fae5aaa11811c03f590119c227cea3dea3654b5592f",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/field_dictionary.csv",
+      "destination": "outputs/GaN_HEMT_Prepared/field_dictionary.csv",
+      "original_sha256": "b222d3fd60a4b495938fb4816cd792b1d86095a73d34b43b9d09d683a68d04f3",
+      "export_sha256": "b222d3fd60a4b495938fb4816cd792b1d86095a73d34b43b9d09d683a68d04f3",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/metadata/conditions.json",
+      "destination": "outputs/GaN_HEMT_Prepared/metadata/conditions.json",
+      "original_sha256": "a5ca4da0770adb33ba3b91f3e3abc1c43dbc67d25cb27971b5cd1fca68fe99f6",
+      "export_sha256": "a5ca4da0770adb33ba3b91f3e3abc1c43dbc67d25cb27971b5cd1fca68fe99f6",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/metadata/DFO_LICENSE.txt",
+      "destination": "outputs/GaN_HEMT_Prepared/metadata/DFO_LICENSE.txt",
+      "original_sha256": "c3b5fcf363e905182af3b9aa9a6cbc4b15e3fb769434b9766d4b394689cea16e",
+      "export_sha256": "c3b5fcf363e905182af3b9aa9a6cbc4b15e3fb769434b9766d4b394689cea16e",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/metadata/RDG_source_metadata.json",
+      "destination": "outputs/GaN_HEMT_Prepared/metadata/RDG_source_metadata.json",
+      "original_sha256": "060ce370e290d83c53d1163bdd9d69288630469727b1a82037b8aed8a9ac84a8",
+      "export_sha256": "060ce370e290d83c53d1163bdd9d69288630469727b1a82037b8aed8a9ac84a8",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/metadata/schema.json",
+      "destination": "outputs/GaN_HEMT_Prepared/metadata/schema.json",
+      "original_sha256": "97143fceea66a12548447a01ce707ebaa64d01d3d11db8c5f71afc11eea86a21",
+      "export_sha256": "97143fceea66a12548447a01ce707ebaa64d01d3d11db8c5f71afc11eea86a21",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/metadata/source_provenance.json",
+      "destination": "outputs/GaN_HEMT_Prepared/metadata/source_provenance.json",
+      "original_sha256": "fdda157f9697cb887a43fc542f93d0dd9946a0a73284b2e848e77ff7be7e9ce3",
+      "export_sha256": "fdda157f9697cb887a43fc542f93d0dd9946a0a73284b2e848e77ff7be7e9ce3",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/metadata/validation.json",
+      "destination": "outputs/GaN_HEMT_Prepared/metadata/validation.json",
+      "original_sha256": "386e62b9650dff96783826acf023ec5d9e8fed20cb2ff9f233050b9ce63a13cf",
+      "export_sha256": "20e99d5a669301d481e2a38797f9653b0b5b02059b0e1c2f6979ac593819f88d",
+      "changed_from_original": true
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/previews/DFO_4x50_curves.png",
+      "destination": "outputs/GaN_HEMT_Prepared/previews/DFO_4x50_curves.png",
+      "original_sha256": "45b3b578a5875003bbfe1438545a08db67059e63ea0e3efc2b19a36efc9bb445",
+      "export_sha256": "45b3b578a5875003bbfe1438545a08db67059e63ea0e3efc2b19a36efc9bb445",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/previews/GS65030_curves.png",
+      "destination": "outputs/GaN_HEMT_Prepared/previews/GS65030_curves.png",
+      "original_sha256": "bf853b95c1d473253de0f570f411c8f82f45d81d418d8ce89de192cf46b5bcba",
+      "export_sha256": "bf853b95c1d473253de0f570f411c8f82f45d81d418d8ce89de192cf46b5bcba",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/previews/overview.png",
+      "destination": "outputs/GaN_HEMT_Prepared/previews/overview.png",
+      "original_sha256": "fe647671076d808dc17c90702c81176c2d49ca70453ba9b78c0a121347b99edc",
+      "export_sha256": "fe647671076d808dc17c90702c81176c2d49ca70453ba9b78c0a121347b99edc",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_10e067a01736.png",
+      "destination": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_10e067a01736.png",
+      "original_sha256": "d3c908b1483dfab1fa2173c836d9455e19df27bc8afa617148572bff99a0591d",
+      "export_sha256": "d3c908b1483dfab1fa2173c836d9455e19df27bc8afa617148572bff99a0591d",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_148138673399.png",
+      "destination": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_148138673399.png",
+      "original_sha256": "50602ee34967a0dc77d211c0f7a2d4d3b391b9190a2b34ee47f04fd052e5316a",
+      "export_sha256": "50602ee34967a0dc77d211c0f7a2d4d3b391b9190a2b34ee47f04fd052e5316a",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_193ed8730ba8.png",
+      "destination": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_193ed8730ba8.png",
+      "original_sha256": "1b2b7002016a56ec8206a80518423e40b471e4163c6f459f17e6320f727f872d",
+      "export_sha256": "1b2b7002016a56ec8206a80518423e40b471e4163c6f459f17e6320f727f872d",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_279988b51ea2.png",
+      "destination": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_279988b51ea2.png",
+      "original_sha256": "2c9c9fc7d9a36a4bb83512fab7bb6603d014840a36bd57594105cda2de3fb3cb",
+      "export_sha256": "2c9c9fc7d9a36a4bb83512fab7bb6603d014840a36bd57594105cda2de3fb3cb",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_686f39c09032.png",
+      "destination": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_686f39c09032.png",
+      "original_sha256": "c1ab77e878710ac9a41c198c7e115df391f24c5cc097fd9bb220f9d4eb7ce678",
+      "export_sha256": "c1ab77e878710ac9a41c198c7e115df391f24c5cc097fd9bb220f9d4eb7ce678",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_773e4aa98e24.png",
+      "destination": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_773e4aa98e24.png",
+      "original_sha256": "e0624a7b45cd0c78c92e09ad5b77a0a28d18350810ee3ec063955af81b449453",
+      "export_sha256": "e0624a7b45cd0c78c92e09ad5b77a0a28d18350810ee3ec063955af81b449453",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_7b4c4906e14b.png",
+      "destination": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_7b4c4906e14b.png",
+      "original_sha256": "35ca8e247880f225d81069fac58c0cfc8c6eb2acb945282c8037177b4d8564b4",
+      "export_sha256": "35ca8e247880f225d81069fac58c0cfc8c6eb2acb945282c8037177b4d8564b4",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_7b8a26ff6a2b.png",
+      "destination": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_7b8a26ff6a2b.png",
+      "original_sha256": "e046c177253db890ba5dcf73dcba4bb1230255fd61c1300dc649d5a6cd7fe0c9",
+      "export_sha256": "e046c177253db890ba5dcf73dcba4bb1230255fd61c1300dc649d5a6cd7fe0c9",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_a3b798638f74.png",
+      "destination": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_a3b798638f74.png",
+      "original_sha256": "be5f56da151962b8d74571731ebf5c415d44db4bf31e7c099915238546ef8b52",
+      "export_sha256": "be5f56da151962b8d74571731ebf5c415d44db4bf31e7c099915238546ef8b52",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_acf7c3c90fff.png",
+      "destination": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_acf7c3c90fff.png",
+      "original_sha256": "58596cc338f7a9840fce94974b74114d557858271c5eca956d481335348656ff",
+      "export_sha256": "58596cc338f7a9840fce94974b74114d557858271c5eca956d481335348656ff",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_b48572c4bdfa.png",
+      "destination": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_b48572c4bdfa.png",
+      "original_sha256": "204ae1f1386a6eb2ca86b83fc780ccbfa10db0fc72f71c86ded1a8d2ec4417f8",
+      "export_sha256": "204ae1f1386a6eb2ca86b83fc780ccbfa10db0fc72f71c86ded1a8d2ec4417f8",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_bb9365d509a3.png",
+      "destination": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_bb9365d509a3.png",
+      "original_sha256": "cc8cac505ee58fef9526d343141fee6eaebd04184782ee13db6d498a97818f2a",
+      "export_sha256": "cc8cac505ee58fef9526d343141fee6eaebd04184782ee13db6d498a97818f2a",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_bd466b07c2db.png",
+      "destination": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_bd466b07c2db.png",
+      "original_sha256": "26008d29842919eb005393e56b1a565b9d3ddf39063afac22961d9f7a89a9767",
+      "export_sha256": "26008d29842919eb005393e56b1a565b9d3ddf39063afac22961d9f7a89a9767",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_c37385d34238.png",
+      "destination": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_c37385d34238.png",
+      "original_sha256": "68bf806dc501e3d11721392eec87305fd2e42a2d0e7b920c0bad71fcee9edb23",
+      "export_sha256": "68bf806dc501e3d11721392eec87305fd2e42a2d0e7b920c0bad71fcee9edb23",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_c7eda2e3edc7.png",
+      "destination": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_c7eda2e3edc7.png",
+      "original_sha256": "a3d5645b3c8319a9e05bbe980ab3ed2f1936aa48864d3de53fcf212a4043634f",
+      "export_sha256": "a3d5645b3c8319a9e05bbe980ab3ed2f1936aa48864d3de53fcf212a4043634f",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_ee45bed97c6e.png",
+      "destination": "outputs/GaN_HEMT_Prepared/previews/source_curves/RDG_ee45bed97c6e.png",
+      "original_sha256": "b47e40cffc24a8ba74cc78eb17dce4180ebb7947338f7bdab05c5f916c51789a",
+      "export_sha256": "b47e40cffc24a8ba74cc78eb17dce4180ebb7947338f7bdab05c5f916c51789a",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/previews/TLN2_curves.png",
+      "destination": "outputs/GaN_HEMT_Prepared/previews/TLN2_curves.png",
+      "original_sha256": "b214c2771df0998ee739419f22376ff4e42c46619275c18ed86136d39e4690de",
+      "export_sha256": "b214c2771df0998ee739419f22376ff4e42c46619275c18ed86136d39e4690de",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/raw_selected/Characterization_protocol.pdf",
+      "destination": "outputs/GaN_HEMT_Prepared/raw_selected/Characterization_protocol.pdf",
+      "original_sha256": "9ce7515f36881dce795f9c883fdb6dba3893af91319619f1194b822b129aa80c",
+      "export_sha256": "9ce7515f36881dce795f9c883fdb6dba3893af91319619f1194b822b129aa80c",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/raw_selected/DFO_b7a55171a939.csv",
+      "destination": "outputs/GaN_HEMT_Prepared/raw_selected/DFO_b7a55171a939.csv",
+      "original_sha256": "b7a55171a939666e2b006fc4b445cbcd3d99951a62dc77e5e8892d1c085d333c",
+      "export_sha256": "b7a55171a939666e2b006fc4b445cbcd3d99951a62dc77e5e8892d1c085d333c",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/raw_selected/DFO_model_context.mdl",
+      "destination": "outputs/GaN_HEMT_Prepared/raw_selected/DFO_model_context.mdl",
+      "original_sha256": "84e54e59651f4c40d409103ab6785b4c3b58bc53058aa7ad89ae2431558db11f",
+      "export_sha256": "d090615d5fb099804c0403507689686019db649549e153878444da8fc898437c",
+      "changed_from_original": true
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_10e067a01736.csv",
+      "destination": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_10e067a01736.csv",
+      "original_sha256": "10e067a01736d291ad9265012f92293b8ce824bacd5a9cdb3f59d0c2626594e9",
+      "export_sha256": "10e067a01736d291ad9265012f92293b8ce824bacd5a9cdb3f59d0c2626594e9",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_148138673399.csv",
+      "destination": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_148138673399.csv",
+      "original_sha256": "148138673399b4e15edd584c273de090aaf32ba8d339712bc7a471a8569b0273",
+      "export_sha256": "148138673399b4e15edd584c273de090aaf32ba8d339712bc7a471a8569b0273",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_193ed8730ba8.csv",
+      "destination": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_193ed8730ba8.csv",
+      "original_sha256": "193ed8730ba8600f1db53c84d4acd2603ca81ebadef3ca2e9ad24a4aa101f9d9",
+      "export_sha256": "193ed8730ba8600f1db53c84d4acd2603ca81ebadef3ca2e9ad24a4aa101f9d9",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_279988b51ea2.csv",
+      "destination": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_279988b51ea2.csv",
+      "original_sha256": "279988b51ea2d855a604be47d7d244a67ad879de9b349e403b50331fa9fbcfeb",
+      "export_sha256": "279988b51ea2d855a604be47d7d244a67ad879de9b349e403b50331fa9fbcfeb",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_686f39c09032.csv",
+      "destination": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_686f39c09032.csv",
+      "original_sha256": "686f39c090329f07205ac37c007dc3dd3828fe2e9c80fdebd722c2c25331b10e",
+      "export_sha256": "686f39c090329f07205ac37c007dc3dd3828fe2e9c80fdebd722c2c25331b10e",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_773e4aa98e24.csv",
+      "destination": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_773e4aa98e24.csv",
+      "original_sha256": "773e4aa98e24770068092473678c3e4de45d4f6d4ad4ff85b2b9d7abe9161987",
+      "export_sha256": "773e4aa98e24770068092473678c3e4de45d4f6d4ad4ff85b2b9d7abe9161987",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_7b4c4906e14b.csv",
+      "destination": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_7b4c4906e14b.csv",
+      "original_sha256": "7b4c4906e14bb1f63a6b27eecef600691175a40eaddec936a7b2462ae365c784",
+      "export_sha256": "7b4c4906e14bb1f63a6b27eecef600691175a40eaddec936a7b2462ae365c784",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_7b8a26ff6a2b.csv",
+      "destination": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_7b8a26ff6a2b.csv",
+      "original_sha256": "7b8a26ff6a2b9c480e33f01369ae4fb43363ee6a6cc72ea2d31400ee69990580",
+      "export_sha256": "7b8a26ff6a2b9c480e33f01369ae4fb43363ee6a6cc72ea2d31400ee69990580",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_a3b798638f74.csv",
+      "destination": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_a3b798638f74.csv",
+      "original_sha256": "a3b798638f74fb154410e0597b449a54f7fdd513c57a410acfadee9117e34053",
+      "export_sha256": "a3b798638f74fb154410e0597b449a54f7fdd513c57a410acfadee9117e34053",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_acf7c3c90fff.csv",
+      "destination": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_acf7c3c90fff.csv",
+      "original_sha256": "acf7c3c90fff85d8d7177076f1defd70f7c0f156b7f08194b5889bfe10d11ce0",
+      "export_sha256": "acf7c3c90fff85d8d7177076f1defd70f7c0f156b7f08194b5889bfe10d11ce0",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_b48572c4bdfa.csv",
+      "destination": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_b48572c4bdfa.csv",
+      "original_sha256": "b48572c4bdfa9fbdbefea8a276ebcca70b3fd20597440da0b933d449e8fdf040",
+      "export_sha256": "b48572c4bdfa9fbdbefea8a276ebcca70b3fd20597440da0b933d449e8fdf040",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_bb9365d509a3.csv",
+      "destination": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_bb9365d509a3.csv",
+      "original_sha256": "bb9365d509a3ed3c93814b9a5c270c4bb174408cf1577364b3c789484dfa7949",
+      "export_sha256": "bb9365d509a3ed3c93814b9a5c270c4bb174408cf1577364b3c789484dfa7949",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_bd466b07c2db.csv",
+      "destination": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_bd466b07c2db.csv",
+      "original_sha256": "bd466b07c2db2514d0569d589c1170dab454a8ba45b287d8b3ada331411a841c",
+      "export_sha256": "bd466b07c2db2514d0569d589c1170dab454a8ba45b287d8b3ada331411a841c",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_c37385d34238.csv",
+      "destination": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_c37385d34238.csv",
+      "original_sha256": "c37385d34238d8aed04d3946c36225b2d972c8e996bc0f50401f8159721157bb",
+      "export_sha256": "c37385d34238d8aed04d3946c36225b2d972c8e996bc0f50401f8159721157bb",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_c7eda2e3edc7.csv",
+      "destination": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_c7eda2e3edc7.csv",
+      "original_sha256": "c7eda2e3edc78504adbfeb05afdbc86b066ef09820f938dea48227944b2590f5",
+      "export_sha256": "c7eda2e3edc78504adbfeb05afdbc86b066ef09820f938dea48227944b2590f5",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_ee45bed97c6e.csv",
+      "destination": "outputs/GaN_HEMT_Prepared/raw_selected/RDG_ee45bed97c6e.csv",
+      "original_sha256": "ee45bed97c6e772a79253998e9b16f400eba789b8aca5f3f1bc1a369e6ced7a9",
+      "export_sha256": "ee45bed97c6e772a79253998e9b16f400eba789b8aca5f3f1bc1a369e6ced7a9",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/README.md",
+      "destination": "outputs/GaN_HEMT_Prepared/README.md",
+      "original_sha256": "a58b0e76747ef62aa6607932606ba69b8d6a8d2b18c6601e187c89fbf24280b5",
+      "export_sha256": "e5bb0c11110c8f5832a2e814baa5bf5fe9613a8f19dfe93666d413992ce0cee1",
+      "changed_from_original": true
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/SHA256SUMS.txt",
+      "destination": "outputs/GaN_HEMT_Prepared/SHA256SUMS.txt",
+      "original_sha256": "44bdcb06d9799f498e4a8de9342866d5ded269206202904f9c49aa4e985d4a85",
+      "export_sha256": null,
+      "changed_from_original": true
+    },
+    {
+      "source": "outputs/GaN_HEMT_Prepared/source_inventory.csv",
+      "destination": "outputs/GaN_HEMT_Prepared/source_inventory.csv",
+      "original_sha256": "8ef790d9e8fb5622eaf7cb280b313070b7937dd9073f37c93631adbf134f0e6b",
+      "export_sha256": "8ef790d9e8fb5622eaf7cb280b313070b7937dd9073f37c93631adbf134f0e6b",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Datasets/download_manifest.json",
+      "destination": "docs/sources/download_manifest.json",
+      "original_sha256": "fdda157f9697cb887a43fc542f93d0dd9946a0a73284b2e848e77ff7be7e9ce3",
+      "export_sha256": "fdda157f9697cb887a43fc542f93d0dd9946a0a73284b2e848e77ff7be7e9ce3",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Datasets/validation_report.json",
+      "destination": "docs/sources/download_validation.json",
+      "original_sha256": "ec39e731e9d38e03f1cd3951215624550a1276a22b3bc9cf8a9472d002cc6df0",
+      "export_sha256": "ec39e731e9d38e03f1cd3951215624550a1276a22b3bc9cf8a9472d002cc6df0",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Datasets/02_ASM_HEMT_DFO_Measurements/extracted/LICENSE",
+      "destination": "licenses/DFO_MIT.txt",
+      "original_sha256": "c3b5fcf363e905182af3b9aa9a6cbc4b15e3fb769434b9766d4b394689cea16e",
+      "export_sha256": "c3b5fcf363e905182af3b9aa9a6cbc4b15e3fb769434b9766d4b394689cea16e",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Datasets/03_ASM_HEMT_Model_Reference/extracted/CMC/ASMHEMT101.0.0_03162018/vacode/LICENSE.txt",
+      "destination": "licenses/ASM_HEMT_101_0_NOTICE.txt",
+      "original_sha256": "0de05f822e5d9d4e142e60cf3008f9055ffd80b16699886f974939dcced08bba",
+      "export_sha256": "0de05f822e5d9d4e142e60cf3008f9055ffd80b16699886f974939dcced08bba",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/bootstrap.ps1",
+      "destination": "outputs/DFO_DC_Baseline/bootstrap.ps1",
+      "original_sha256": "50dcf1b4b12d8f664930b60eb1f166cbde8b181bd66100511f2c4ddd047d6d88",
+      "export_sha256": "6fb2b244b756833abf1b6897f6b7efc13f789b24fb8b4fdb32de2376c0b8ab76",
+      "changed_from_original": true
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/provenance.json",
+      "destination": "outputs/DFO_DC_Baseline/provenance.json",
+      "original_sha256": "00c8732c7d05dace489e53416759c3627c1423ecac3bc4f3515af25bdddca9a3",
+      "export_sha256": "00c8732c7d05dace489e53416759c3627c1423ecac3bc4f3515af25bdddca9a3",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/README.md",
+      "destination": "outputs/DFO_DC_Baseline/README.md",
+      "original_sha256": "ca3d39744dff2f08488832db6e6ae9313b2f482854c9ab36ad0f8a1fb73395f7",
+      "export_sha256": "df6df0054c8accba17e9865ba8cbe7e1e2811d44ac05e2617a82783f4f1dd9da",
+      "changed_from_original": true
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/requirements.txt",
+      "destination": "outputs/DFO_DC_Baseline/requirements.txt",
+      "original_sha256": "5cc673cc745a3332b226e8744b3aa5acd10448816799ba2bd2a6275139c4f8b9",
+      "export_sha256": "5cc673cc745a3332b226e8744b3aa5acd10448816799ba2bd2a6275139c4f8b9",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/run.ps1",
+      "destination": "outputs/DFO_DC_Baseline/run.ps1",
+      "original_sha256": "b9e85577ddaa661b25bd5290048d516f42926fc93cf15966260c64605a6c1dcf",
+      "export_sha256": "73d630f90dcb02ecc63e604f6048014260cd853e4bf6d15f7185a4a27a882e61",
+      "changed_from_original": true
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/THIRD_PARTY_LICENSE.txt",
+      "destination": "outputs/DFO_DC_Baseline/THIRD_PARTY_LICENSE.txt",
+      "original_sha256": "c3b5fcf363e905182af3b9aa9a6cbc4b15e3fb769434b9766d4b394689cea16e",
+      "export_sha256": "c3b5fcf363e905182af3b9aa9a6cbc4b15e3fb769434b9766d4b394689cea16e",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/validation_report.md",
+      "destination": "outputs/DFO_DC_Baseline/validation_report.md",
+      "original_sha256": "c132eada1847649bbfbcb64c81f8c2653c0d89cdd558dbb1257cfb0c2d1473d2",
+      "export_sha256": "c132eada1847649bbfbcb64c81f8c2653c0d89cdd558dbb1257cfb0c2d1473d2",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/src/baseline.py",
+      "destination": "outputs/DFO_DC_Baseline/src/baseline.py",
+      "original_sha256": "a13a326e2332d1a3b76815f9f5c724a9f4a8dcebe2e1b0f86e60f272ef5cbaed",
+      "export_sha256": "a13a326e2332d1a3b76815f9f5c724a9f4a8dcebe2e1b0f86e60f272ef5cbaed",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/src/config.py",
+      "destination": "outputs/DFO_DC_Baseline/src/config.py",
+      "original_sha256": "02607d88d3f74487d1fb5b68440da0b66ce97b185007fba6c7e52ccdc7d1e079",
+      "export_sha256": "02607d88d3f74487d1fb5b68440da0b66ce97b185007fba6c7e52ccdc7d1e079",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/src/report.py",
+      "destination": "outputs/DFO_DC_Baseline/src/report.py",
+      "original_sha256": "5ebc02150aec7bf85989b36b10c15b08deb0f11263827d7ab1961c89c07e6502",
+      "export_sha256": "5ebc02150aec7bf85989b36b10c15b08deb0f11263827d7ab1961c89c07e6502",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/src/spice.py",
+      "destination": "outputs/DFO_DC_Baseline/src/spice.py",
+      "original_sha256": "378f1f4fb80c84da13872b6cefa8c5f79d3fe64b32882b4e5b89c024fed747fa",
+      "export_sha256": "378f1f4fb80c84da13872b6cefa8c5f79d3fe64b32882b4e5b89c024fed747fa",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/src/verify.py",
+      "destination": "outputs/DFO_DC_Baseline/src/verify.py",
+      "original_sha256": "6ce90f2a9e3d383b285bdc789257596a4b16a7fc1dff6763303abe1e12c01d27",
+      "export_sha256": "6ce90f2a9e3d383b285bdc789257596a4b16a7fc1dff6763303abe1e12c01d27",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/data/manifest.json",
+      "destination": "outputs/DFO_DC_Baseline/data/manifest.json",
+      "original_sha256": "123213e9f9d6dfa2476cfe1f96e1f6fc7d57a9c9d083e3d68fea70b5fc7d696b",
+      "export_sha256": "e50fba035a56ff93cc01c80f0e41bd7d7af59f385f69e2f0a51a6c99cc6bffa6",
+      "changed_from_original": true
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/data/test.csv",
+      "destination": "outputs/DFO_DC_Baseline/data/test.csv",
+      "original_sha256": "043b99d2f919ccfe1350f66e50822083dd86f961175a3a41a9e1f33430136536",
+      "export_sha256": "043b99d2f919ccfe1350f66e50822083dd86f961175a3a41a9e1f33430136536",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/data/train.csv",
+      "destination": "outputs/DFO_DC_Baseline/data/train.csv",
+      "original_sha256": "b2c34861960505e0c3f94a36e96ad7638c8b7599f3ba93092259a2ee909ee8e9",
+      "export_sha256": "b2c34861960505e0c3f94a36e96ad7638c8b7599f3ba93092259a2ee909ee8e9",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/models/asmhemt.lib",
+      "destination": "outputs/DFO_DC_Baseline/models/asmhemt.lib",
+      "original_sha256": "bf4347034cb3b2eda202ee4ccf1225de77e3f4646bc415e7d8008d2864ea3cb3",
+      "export_sha256": null,
+      "changed_from_original": true
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/models/fitted_model.lib",
+      "destination": "outputs/DFO_DC_Baseline/models/fitted_model.lib",
+      "original_sha256": "af72250e39f323adb2c94588dd15d184ac52e5a0e2edaf6d79ce09013dd8f974",
+      "export_sha256": "af72250e39f323adb2c94588dd15d184ac52e5a0e2edaf6d79ce09013dd8f974",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/models/fitted_parameters.json",
+      "destination": "outputs/DFO_DC_Baseline/models/fitted_parameters.json",
+      "original_sha256": "cb23b14fe776fe6775b153ceafc92628e5422e7d32de20c4cc647437f980f83b",
+      "export_sha256": "cb23b14fe776fe6775b153ceafc92628e5422e7d32de20c4cc647437f980f83b",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/runtime/ngspice_COPYING.txt",
+      "destination": "licenses/DFO_DC_Baseline_ngspice_COPYING.txt",
+      "original_sha256": "6d939001e899ede403277fb37124c2af6f1cf92926465cd8f4bf59859e06f579",
+      "export_sha256": "6d939001e899ede403277fb37124c2af6f1cf92926465cd8f4bf59859e06f579",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/agent.py",
+      "destination": "outputs/GaN_HEMT_Local_Agent/agent.py",
+      "original_sha256": "ff5dc922df817d70dc565a8163a33620564475d354dee582d3f63f05be347738",
+      "export_sha256": "ff5dc922df817d70dc565a8163a33620564475d354dee582d3f63f05be347738",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/bootstrap.ps1",
+      "destination": "outputs/GaN_HEMT_Local_Agent/bootstrap.ps1",
+      "original_sha256": "50dcf1b4b12d8f664930b60eb1f166cbde8b181bd66100511f2c4ddd047d6d88",
+      "export_sha256": "6fb2b244b756833abf1b6897f6b7efc13f789b24fb8b4fdb32de2376c0b8ab76",
+      "changed_from_original": true
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/integration_requirements.md",
+      "destination": "outputs/GaN_HEMT_Local_Agent/integration_requirements.md",
+      "original_sha256": "bdb3a236cde1619f7e18c060a912a7a676a1c19e759678fe014d3e1aeeb2ae78",
+      "export_sha256": "bdb3a236cde1619f7e18c060a912a7a676a1c19e759678fe014d3e1aeeb2ae78",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/official_research.json",
+      "destination": "outputs/GaN_HEMT_Local_Agent/official_research.json",
+      "original_sha256": "60421a8295ff0e4b9557bda4003152dc967a13c452f484829ad82cb05e825a3a",
+      "export_sha256": "60421a8295ff0e4b9557bda4003152dc967a13c452f484829ad82cb05e825a3a",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/parameter_diagnostics.md",
+      "destination": "outputs/GaN_HEMT_Local_Agent/parameter_diagnostics.md",
+      "original_sha256": "821f87b18616a7671e2ea84153d1c01083ef7e1a1204885cfcaa0dc3624b7372",
+      "export_sha256": "821f87b18616a7671e2ea84153d1c01083ef7e1a1204885cfcaa0dc3624b7372",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/project_manifest.json",
+      "destination": "outputs/GaN_HEMT_Local_Agent/project_manifest.json",
+      "original_sha256": "ffc82733fb84aa11fa56f1f3892dd3657f580fe16361f0541dae55e03498a433",
+      "export_sha256": "ffc82733fb84aa11fa56f1f3892dd3657f580fe16361f0541dae55e03498a433",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/protocol.json",
+      "destination": "outputs/GaN_HEMT_Local_Agent/protocol.json",
+      "original_sha256": "03a4cc5daf8ef73eec5999feb496087c0798092df6f2bd8cffa2d0df959f1423",
+      "export_sha256": "03a4cc5daf8ef73eec5999feb496087c0798092df6f2bd8cffa2d0df959f1423",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/provenance.json",
+      "destination": "outputs/GaN_HEMT_Local_Agent/provenance.json",
+      "original_sha256": "00c8732c7d05dace489e53416759c3627c1423ecac3bc4f3515af25bdddca9a3",
+      "export_sha256": "00c8732c7d05dace489e53416759c3627c1423ecac3bc4f3515af25bdddca9a3",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/README.md",
+      "destination": "outputs/GaN_HEMT_Local_Agent/README.md",
+      "original_sha256": "0941db09ad0e26e96bf4b8a4d172b2320b6082c554199a0699f74e109e4f266c",
+      "export_sha256": "174a674b6c19920f40895d8dd7a3ca7b5fdd4b2d7294b307194f3005b17ce5e9",
+      "changed_from_original": true
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/requirements.txt",
+      "destination": "outputs/GaN_HEMT_Local_Agent/requirements.txt",
+      "original_sha256": "5cc673cc745a3332b226e8744b3aa5acd10448816799ba2bd2a6275139c4f8b9",
+      "export_sha256": "5cc673cc745a3332b226e8744b3aa5acd10448816799ba2bd2a6275139c4f8b9",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/run.ps1",
+      "destination": "outputs/GaN_HEMT_Local_Agent/run.ps1",
+      "original_sha256": "8f1b896a08bdea7d536d042ca1ddef33782700ba6daba266cc7dcc69e37880ea",
+      "export_sha256": "8f1b896a08bdea7d536d042ca1ddef33782700ba6daba266cc7dcc69e37880ea",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/THIRD_PARTY_LICENSE.txt",
+      "destination": "outputs/GaN_HEMT_Local_Agent/THIRD_PARTY_LICENSE.txt",
+      "original_sha256": "c3b5fcf363e905182af3b9aa9a6cbc4b15e3fb769434b9766d4b394689cea16e",
+      "export_sha256": "c3b5fcf363e905182af3b9aa9a6cbc4b15e3fb769434b9766d4b394689cea16e",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/src/analysis.py",
+      "destination": "outputs/GaN_HEMT_Local_Agent/src/analysis.py",
+      "original_sha256": "5222824d48d221013b5b5c8feee95dd8d64f484d8692a3ed3619660926069975",
+      "export_sha256": "5222824d48d221013b5b5c8feee95dd8d64f484d8692a3ed3619660926069975",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/src/backend.py",
+      "destination": "outputs/GaN_HEMT_Local_Agent/src/backend.py",
+      "original_sha256": "b2d841ee80a8235cd06a42214ea2e5c435bba13e3311049213c8f4b1377e9e7d",
+      "export_sha256": "b2d841ee80a8235cd06a42214ea2e5c435bba13e3311049213c8f4b1377e9e7d",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/src/common.py",
+      "destination": "outputs/GaN_HEMT_Local_Agent/src/common.py",
+      "original_sha256": "0cc95c75c77800f9581cdf21506e8d4b52d33386ac6ce9b2951dee06b2b191f5",
+      "export_sha256": "0cc95c75c77800f9581cdf21506e8d4b52d33386ac6ce9b2951dee06b2b191f5",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/src/config.py",
+      "destination": "outputs/GaN_HEMT_Local_Agent/src/config.py",
+      "original_sha256": "02607d88d3f74487d1fb5b68440da0b66ce97b185007fba6c7e52ccdc7d1e079",
+      "export_sha256": "02607d88d3f74487d1fb5b68440da0b66ce97b185007fba6c7e52ccdc7d1e079",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/src/reporting.py",
+      "destination": "outputs/GaN_HEMT_Local_Agent/src/reporting.py",
+      "original_sha256": "5a61505395af1d7ab4478209deafa1e9551898407cc7b65f061477a54438eda0",
+      "export_sha256": "5a61505395af1d7ab4478209deafa1e9551898407cc7b65f061477a54438eda0",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/src/spice.py",
+      "destination": "outputs/GaN_HEMT_Local_Agent/src/spice.py",
+      "original_sha256": "378f1f4fb80c84da13872b6cefa8c5f79d3fe64b32882b4e5b89c024fed747fa",
+      "export_sha256": "378f1f4fb80c84da13872b6cefa8c5f79d3fe64b32882b4e5b89c024fed747fa",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/src/workflow.py",
+      "destination": "outputs/GaN_HEMT_Local_Agent/src/workflow.py",
+      "original_sha256": "0b018849160a21426e4db5419d8c498974b31e66270aa30badfe75dac3993f4f",
+      "export_sha256": "0b018849160a21426e4db5419d8c498974b31e66270aa30badfe75dac3993f4f",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/tests/acceptance.py",
+      "destination": "outputs/GaN_HEMT_Local_Agent/tests/acceptance.py",
+      "original_sha256": "95082b10b5193e7c3d83a05b604a7b99e41dd1c6ee124447978ab93c99a71932",
+      "export_sha256": "04ed9e0939740cf38cf13fceefef5c1a13385e7ca639ab592c15e9f47d0c8e40",
+      "changed_from_original": true
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/tests/lock_probe.py",
+      "destination": "outputs/GaN_HEMT_Local_Agent/tests/lock_probe.py",
+      "original_sha256": "117c0d519a98508b76aee722e1964129a7bd4e4e8aa155201762e3d10004e1ef",
+      "export_sha256": "117c0d519a98508b76aee722e1964129a7bd4e4e8aa155201762e3d10004e1ef",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/data/manifest.json",
+      "destination": "outputs/GaN_HEMT_Local_Agent/data/manifest.json",
+      "original_sha256": "123213e9f9d6dfa2476cfe1f96e1f6fc7d57a9c9d083e3d68fea70b5fc7d696b",
+      "export_sha256": "e50fba035a56ff93cc01c80f0e41bd7d7af59f385f69e2f0a51a6c99cc6bffa6",
+      "changed_from_original": true
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/data/test.csv",
+      "destination": "outputs/GaN_HEMT_Local_Agent/data/test.csv",
+      "original_sha256": "043b99d2f919ccfe1350f66e50822083dd86f961175a3a41a9e1f33430136536",
+      "export_sha256": "043b99d2f919ccfe1350f66e50822083dd86f961175a3a41a9e1f33430136536",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/data/train.csv",
+      "destination": "outputs/GaN_HEMT_Local_Agent/data/train.csv",
+      "original_sha256": "b2c34861960505e0c3f94a36e96ad7638c8b7599f3ba93092259a2ee909ee8e9",
+      "export_sha256": "b2c34861960505e0c3f94a36e96ad7638c8b7599f3ba93092259a2ee909ee8e9",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/reference/baseline_snapshot.json",
+      "destination": "outputs/GaN_HEMT_Local_Agent/reference/baseline_snapshot.json",
+      "original_sha256": "2ad0948658c1037ec7786e0ae7f2b80011669c9ff14814367fef981869ea15c9",
+      "export_sha256": "2ad0948658c1037ec7786e0ae7f2b80011669c9ff14814367fef981869ea15c9",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/reference/fitted_parameters.json",
+      "destination": "outputs/GaN_HEMT_Local_Agent/reference/fitted_parameters.json",
+      "original_sha256": "cb23b14fe776fe6775b153ceafc92628e5422e7d32de20c4cc647437f980f83b",
+      "export_sha256": "cb23b14fe776fe6775b153ceafc92628e5422e7d32de20c4cc647437f980f83b",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/reference/freeze.json",
+      "destination": "outputs/GaN_HEMT_Local_Agent/reference/freeze.json",
+      "original_sha256": "968506da483a0aee65b1265e2ffdacd9af527529ccc1c75b035beabb10a1afe1",
+      "export_sha256": "968506da483a0aee65b1265e2ffdacd9af527529ccc1c75b035beabb10a1afe1",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/reference/local_qa.json",
+      "destination": "outputs/GaN_HEMT_Local_Agent/reference/local_qa.json",
+      "original_sha256": "84a9436d3b7ad66780020d6d3864feb5cbd102bb320a3ad3ed324c6385e3cf36",
+      "export_sha256": "84a9436d3b7ad66780020d6d3864feb5cbd102bb320a3ad3ed324c6385e3cf36",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/models/fitted_model.lib",
+      "destination": "outputs/GaN_HEMT_Local_Agent/models/fitted_model.lib",
+      "original_sha256": "1c6c127c7ea27a7ef47522cc8b831a9e138d3ec5cd8fbc4712a6f69a45817d93",
+      "export_sha256": "1c6c127c7ea27a7ef47522cc8b831a9e138d3ec5cd8fbc4712a6f69a45817d93",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/models/fitted_parameters.json",
+      "destination": "outputs/GaN_HEMT_Local_Agent/models/fitted_parameters.json",
+      "original_sha256": "045ccdf43a87900100257aa8c8eecedccdba150ee00fa54d359aa074785d6bf7",
+      "export_sha256": "045ccdf43a87900100257aa8c8eecedccdba150ee00fa54d359aa074785d6bf7",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/runtime/ngspice_COPYING.txt",
+      "destination": "licenses/GaN_HEMT_Local_Agent_ngspice_COPYING.txt",
+      "original_sha256": "6d939001e899ede403277fb37124c2af6f1cf92926465cd8f4bf59859e06f579",
+      "export_sha256": "6d939001e899ede403277fb37124c2af6f1cf92926465cd8f4bf59859e06f579",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/results/environment.json",
+      "destination": "reports/baseline/environment.json",
+      "original_sha256": "9f522ad1c9873a90c3a56676d2ed0c85571140f2ed08081f16fa9715833f5809",
+      "export_sha256": "9f522ad1c9873a90c3a56676d2ed0c85571140f2ed08081f16fa9715833f5809",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/results/figures/curve_comparison.png",
+      "destination": "reports/baseline/figures/curve_comparison.png",
+      "original_sha256": "050bc40752df37fa2f6ed55801ab8a415798d9ed9679524e5e3e5661f2cc7d27",
+      "export_sha256": "050bc40752df37fa2f6ed55801ab8a415798d9ed9679524e5e3e5661f2cc7d27",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/results/figures/heldout_parity.png",
+      "destination": "reports/baseline/figures/heldout_parity.png",
+      "original_sha256": "f3f2a0dbdf857f5b6465e4853bd6ce7bd550d5eb71a6d5f2be54c3243052587c",
+      "export_sha256": "f3f2a0dbdf857f5b6465e4853bd6ce7bd550d5eb71a6d5f2be54c3243052587c",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/results/figures/optimization_trace.png",
+      "destination": "reports/baseline/figures/optimization_trace.png",
+      "original_sha256": "5a33ea57ef2959f89c79423d38578051f2adb31a56ce22d84587abcf68d39d39",
+      "export_sha256": "5a33ea57ef2959f89c79423d38578051f2adb31a56ce22d84587abcf68d39d39",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/results/figures/residual_map.png",
+      "destination": "reports/baseline/figures/residual_map.png",
+      "original_sha256": "8700754dc52caf30333f1988cb629dfbe983fee45df3c78d9f435d60f73e1715",
+      "export_sha256": "8700754dc52caf30333f1988cb629dfbe983fee45df3c78d9f435d60f73e1715",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/results/fit_protocol.json",
+      "destination": "reports/baseline/fit_protocol.json",
+      "original_sha256": "53a2e86bb244a27cbc1ed02ebc485a16437e95d6e283495d9eae7cf60fcc5fec",
+      "export_sha256": "53a2e86bb244a27cbc1ed02ebc485a16437e95d6e283495d9eae7cf60fcc5fec",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/results/freeze.json",
+      "destination": "reports/baseline/freeze.json",
+      "original_sha256": "968506da483a0aee65b1265e2ffdacd9af527529ccc1c75b035beabb10a1afe1",
+      "export_sha256": "968506da483a0aee65b1265e2ffdacd9af527529ccc1c75b035beabb10a1afe1",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/results/frozen_predictions.npz",
+      "destination": "reports/baseline/frozen_predictions.npz",
+      "original_sha256": "612e227248340a3fe290d8dcc62602b98989ef12322ca9300f7df2b76b6463f8",
+      "export_sha256": "612e227248340a3fe290d8dcc62602b98989ef12322ca9300f7df2b76b6463f8",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/results/initial_predictions.npz",
+      "destination": "reports/baseline/initial_predictions.npz",
+      "original_sha256": "64d52e077aacc74311e7515c7deb13752c18e53539cd0f1328ac8267558e59cf",
+      "export_sha256": "64d52e077aacc74311e7515c7deb13752c18e53539cd0f1328ac8267558e59cf",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/results/local_qa.json",
+      "destination": "reports/baseline/local_qa.json",
+      "original_sha256": "84a9436d3b7ad66780020d6d3864feb5cbd102bb320a3ad3ed324c6385e3cf36",
+      "export_sha256": "84a9436d3b7ad66780020d6d3864feb5cbd102bb320a3ad3ed324c6385e3cf36",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/results/optimization_trace.jsonl",
+      "destination": "reports/baseline/optimization_trace.jsonl",
+      "original_sha256": "23cb892368ee867e7fd87dcf803f42347eaed55e6bc011047f8a91de32790737",
+      "export_sha256": "23cb892368ee867e7fd87dcf803f42347eaed55e6bc011047f8a91de32790737",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/results/parameter_review.csv",
+      "destination": "reports/baseline/parameter_review.csv",
+      "original_sha256": "f3751db2501d7aa5035d63398141b8b49205c5a5a695e4c4bf3116c377ed345f",
+      "export_sha256": "f3751db2501d7aa5035d63398141b8b49205c5a5a695e4c4bf3116c377ed345f",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/results/reproducibility.json",
+      "destination": "reports/baseline/reproducibility.json",
+      "original_sha256": "a2981b00476487f3966fc7bd93f9b90e52240319724c714c7c0229878d96d180",
+      "export_sha256": "b9393651563938af1d90c980ea25c0f681414632d827cc788064b3914ffc9516",
+      "changed_from_original": true
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/results/test_evaluation.json",
+      "destination": "reports/baseline/test_evaluation.json",
+      "original_sha256": "c4ef3619df82882f95c40a4797190606cf8b7732556fa6a21ae0b12491e2ca57",
+      "export_sha256": "c4ef3619df82882f95c40a4797190606cf8b7732556fa6a21ae0b12491e2ca57",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/results/test_predictions.csv",
+      "destination": "reports/baseline/test_predictions.csv",
+      "original_sha256": "8398fdeff54f4855685d61f8e7587f90a5c53afbe59921fe724cedbaca7eba54",
+      "export_sha256": "8398fdeff54f4855685d61f8e7587f90a5c53afbe59921fe724cedbaca7eba54",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/results/train_predictions.csv",
+      "destination": "reports/baseline/train_predictions.csv",
+      "original_sha256": "1a4ba28510b44d585ffed6ca49a03027c46cd2d523268e467220e4e36e373b4e",
+      "export_sha256": "1a4ba28510b44d585ffed6ca49a03027c46cd2d523268e467220e4e36e373b4e",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/results/training_candidates.json",
+      "destination": "reports/baseline/training_candidates.json",
+      "original_sha256": "2c1cc47fcb502fbe4dfe67e8830d922b15336281bb0279a5e568a14c9414e739",
+      "export_sha256": "2c1cc47fcb502fbe4dfe67e8830d922b15336281bb0279a5e568a14c9414e739",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/results/verification.json",
+      "destination": "reports/baseline/verification.json",
+      "original_sha256": "9d97eba30f685a03fdac33e5821ecbc487b27016bb39d7afa4063b56c9fda0d8",
+      "export_sha256": "9d97eba30f685a03fdac33e5821ecbc487b27016bb39d7afa4063b56c9fda0d8",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/results/worst_points.json",
+      "destination": "reports/baseline/worst_points.json",
+      "original_sha256": "cf7da5bd8731877f5b22279c5656693a2baea7e837ff156508a693f9871ff61c",
+      "export_sha256": "cf7da5bd8731877f5b22279c5656693a2baea7e837ff156508a693f9871ff61c",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/models/fitted_model.lib",
+      "destination": "reports/baseline/model_cards/fitted_model.lib",
+      "original_sha256": "af72250e39f323adb2c94588dd15d184ac52e5a0e2edaf6d79ce09013dd8f974",
+      "export_sha256": "af72250e39f323adb2c94588dd15d184ac52e5a0e2edaf6d79ce09013dd8f974",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/models/fitted_parameters.json",
+      "destination": "reports/baseline/model_cards/fitted_parameters.json",
+      "original_sha256": "cb23b14fe776fe6775b153ceafc92628e5422e7d32de20c4cc647437f980f83b",
+      "export_sha256": "cb23b14fe776fe6775b153ceafc92628e5422e7d32de20c4cc647437f980f83b",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/DFO_DC_Baseline/curve_preview.html",
+      "destination": "reports/baseline/curve_preview.html",
+      "original_sha256": "bdfe2db46e27392e528d79de2c788ea5582934c7ecc0042b0d4f2cf4c8594013",
+      "export_sha256": "bdfe2db46e27392e528d79de2c788ea5582934c7ecc0042b0d4f2cf4c8594013",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/acceptance.json",
+      "destination": "reports/local_agent/acceptance.json",
+      "original_sha256": "96fa383a9c985621c36fb38f42b383e05d03214ebaea4cf83dd428ce37c43eea",
+      "export_sha256": "96fa383a9c985621c36fb38f42b383e05d03214ebaea4cf83dd428ce37c43eea",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/acceptance.md",
+      "destination": "reports/local_agent/acceptance.md",
+      "original_sha256": "730cb68ff16ac3131c6e20dd527e3cab9bd9420bbe666b1f4eedd2d40f11451b",
+      "export_sha256": "730cb68ff16ac3131c6e20dd527e3cab9bd9420bbe666b1f4eedd2d40f11451b",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/acceptance_backend/backend_acceptance.json",
+      "destination": "reports/local_agent/acceptance_backend/backend_acceptance.json",
+      "original_sha256": "bdcf72e1d9599a2a5b80c644e4120a90565e8740f04c2db7d4042d56f0655bc0",
+      "export_sha256": "bdcf72e1d9599a2a5b80c644e4120a90565e8740f04c2db7d4042d56f0655bc0",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/agent/candidates.json",
+      "destination": "reports/local_agent/agent/candidates.json",
+      "original_sha256": "0cbe24ef9355b4c40c31654a12979773732ac2b929df5a45c3457026c8a93425",
+      "export_sha256": "0cbe24ef9355b4c40c31654a12979773732ac2b929df5a45c3457026c8a93425",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/agent/core/job.json",
+      "destination": "reports/local_agent/agent/core/job.json",
+      "original_sha256": "3ec32f5d145e3b29c3bcccaaada5a61a8884971b03a85ee119e6460f8132f261",
+      "export_sha256": "3ec32f5d145e3b29c3bcccaaada5a61a8884971b03a85ee119e6460f8132f261",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/agent/core/prediction.npz",
+      "destination": "reports/local_agent/agent/core/prediction.npz",
+      "original_sha256": "a0bfad65f1153e14bdadc2484411bc83478edc2b85b59a1551cab7d68434ba7a",
+      "export_sha256": "a0bfad65f1153e14bdadc2484411bc83478edc2b85b59a1551cab7d68434ba7a",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/agent/core/trace.jsonl",
+      "destination": "reports/local_agent/agent/core/trace.jsonl",
+      "original_sha256": "17c880f427468b77564d3d111314640825690a0379f3b2395c181cca8b772504",
+      "export_sha256": "17c880f427468b77564d3d111314640825690a0379f3b2395c181cca8b772504",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/agent/decision.json",
+      "destination": "reports/local_agent/agent/decision.json",
+      "original_sha256": "5486dd712aa851d9e6a4a26993c7953785ce3deb37cc2b683ba4a906a834bbcb",
+      "export_sha256": "5486dd712aa851d9e6a4a26993c7953785ce3deb37cc2b683ba4a906a834bbcb",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/agent/freeze.json",
+      "destination": "reports/local_agent/agent/freeze.json",
+      "original_sha256": "5f164be6971fb6589af317f7ba90258cc0eeb40270841fcf1fbcbf18d7adca93",
+      "export_sha256": "5f164be6971fb6589af317f7ba90258cc0eeb40270841fcf1fbcbf18d7adca93",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/agent/frozen_prediction.npz",
+      "destination": "reports/local_agent/agent/frozen_prediction.npz",
+      "original_sha256": "54885c08b15ea1ea87856d024f4db9a7996a772e1e962583707bdd34bec1bf0f",
+      "export_sha256": "54885c08b15ea1ea87856d024f4db9a7996a772e1e962583707bdd34bec1bf0f",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/agent/plan.json",
+      "destination": "reports/local_agent/agent/plan.json",
+      "original_sha256": "f95bb7f4518d402ee5775b9d9f4b5a0db19062aa4cdf212e094d7ff251b68180",
+      "export_sha256": "f95bb7f4518d402ee5775b9d9f4b5a0db19062aa4cdf212e094d7ff251b68180",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/agent/refit/job.json",
+      "destination": "reports/local_agent/agent/refit/job.json",
+      "original_sha256": "a9caaca46bc5b2f159bd218b0db570797c7f3e5acccfc475a723654299585e07",
+      "export_sha256": "a9caaca46bc5b2f159bd218b0db570797c7f3e5acccfc475a723654299585e07",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/agent/refit/prediction.npz",
+      "destination": "reports/local_agent/agent/refit/prediction.npz",
+      "original_sha256": "54885c08b15ea1ea87856d024f4db9a7996a772e1e962583707bdd34bec1bf0f",
+      "export_sha256": "54885c08b15ea1ea87856d024f4db9a7996a772e1e962583707bdd34bec1bf0f",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/agent/refit/trace.jsonl",
+      "destination": "reports/local_agent/agent/refit/trace.jsonl",
+      "original_sha256": "a7b2501ac6d0f96f8dfd4f6ffca24c83d6564609352f9c0020fac2466d1af705",
+      "export_sha256": "a7b2501ac6d0f96f8dfd4f6ffca24c83d6564609352f9c0020fac2466d1af705",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/budget_fix_regression.json",
+      "destination": "reports/local_agent/budget_fix_regression.json",
+      "original_sha256": "682cb4e4d24a1f968d33dbf727a8897745fbd9d358978a167a16b83c3df55102",
+      "export_sha256": "682cb4e4d24a1f968d33dbf727a8897745fbd9d358978a167a16b83c3df55102",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/curve_validation/curve_cv.json",
+      "destination": "reports/local_agent/curve_validation/curve_cv.json",
+      "original_sha256": "8b6574d17c818ada17f55685dd9a26a7f891190632e7e6866cebb22dd62b5e48",
+      "export_sha256": "8b6574d17c818ada17f55685dd9a26a7f891190632e7e6866cebb22dd62b5e48",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/curve_validation/curve_oof_predictions.csv",
+      "destination": "reports/local_agent/curve_validation/curve_oof_predictions.csv",
+      "original_sha256": "d07e848d6292381002a16961123bfd2461414408baffb39e6de1dd5558d39d8d",
+      "export_sha256": "d07e848d6292381002a16961123bfd2461414408baffb39e6de1dd5558d39d8d",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/curve_validation/fold_0/job.json",
+      "destination": "reports/local_agent/curve_validation/fold_0/job.json",
+      "original_sha256": "0888b7ccd87b59a6fdb715f8009bcd8c81bef4859036049dfbfcefc15c187bdf",
+      "export_sha256": "0888b7ccd87b59a6fdb715f8009bcd8c81bef4859036049dfbfcefc15c187bdf",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/curve_validation/fold_0/prediction.npz",
+      "destination": "reports/local_agent/curve_validation/fold_0/prediction.npz",
+      "original_sha256": "2c06b7a2b08afbf0988f7cf161e80ac813abd4bdf660832ee21f0f9023e90563",
+      "export_sha256": "2c06b7a2b08afbf0988f7cf161e80ac813abd4bdf660832ee21f0f9023e90563",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/curve_validation/fold_0/trace.jsonl",
+      "destination": "reports/local_agent/curve_validation/fold_0/trace.jsonl",
+      "original_sha256": "b3f66e9d72b9164adb5f14487a677e3404c16ff3cf837561956bea1be3b63c3a",
+      "export_sha256": "b3f66e9d72b9164adb5f14487a677e3404c16ff3cf837561956bea1be3b63c3a",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/curve_validation/fold_1/job.json",
+      "destination": "reports/local_agent/curve_validation/fold_1/job.json",
+      "original_sha256": "e4d5b34b38fa5997a70318ffbb88d4047e2f6aa556fe39015895d3d5b768d29b",
+      "export_sha256": "e4d5b34b38fa5997a70318ffbb88d4047e2f6aa556fe39015895d3d5b768d29b",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/curve_validation/fold_1/prediction.npz",
+      "destination": "reports/local_agent/curve_validation/fold_1/prediction.npz",
+      "original_sha256": "08c1f5df621676aa5c04dcf80b4a535635040a1291b746ea8f9aab2089513fb6",
+      "export_sha256": "08c1f5df621676aa5c04dcf80b4a535635040a1291b746ea8f9aab2089513fb6",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/curve_validation/fold_1/trace.jsonl",
+      "destination": "reports/local_agent/curve_validation/fold_1/trace.jsonl",
+      "original_sha256": "4c896eaf5808898cc969ec53f9bf3f6257a1de658bbf01968855787d8f101bf9",
+      "export_sha256": "4c896eaf5808898cc969ec53f9bf3f6257a1de658bbf01968855787d8f101bf9",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/curve_validation/fold_2/job.json",
+      "destination": "reports/local_agent/curve_validation/fold_2/job.json",
+      "original_sha256": "8b03b87e0b9e062382c014a4c789f8609295c1007ab260e9c35a194f396ca3e5",
+      "export_sha256": "8b03b87e0b9e062382c014a4c789f8609295c1007ab260e9c35a194f396ca3e5",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/curve_validation/fold_2/prediction.npz",
+      "destination": "reports/local_agent/curve_validation/fold_2/prediction.npz",
+      "original_sha256": "7ccdef9284a2bb309f23cf7c04ddf238254418d333dfc0527bf28337de25fbe5",
+      "export_sha256": "7ccdef9284a2bb309f23cf7c04ddf238254418d333dfc0527bf28337de25fbe5",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/curve_validation/fold_2/trace.jsonl",
+      "destination": "reports/local_agent/curve_validation/fold_2/trace.jsonl",
+      "original_sha256": "8440c7512d711b7167c8972b426ed4bfc4d48fc06c9f131258dee7cf11c14dd6",
+      "export_sha256": "8440c7512d711b7167c8972b426ed4bfc4d48fc06c9f131258dee7cf11c14dd6",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/diagnostics/diagnostics.json",
+      "destination": "reports/local_agent/diagnostics/diagnostics.json",
+      "original_sha256": "ea0958098304395fa1c54e1e37f80f88c415f71babaa310a98bdcb31118f91e2",
+      "export_sha256": "ea0958098304395fa1c54e1e37f80f88c415f71babaa310a98bdcb31118f91e2",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/diagnostics/jacobian.npz",
+      "destination": "reports/local_agent/diagnostics/jacobian.npz",
+      "original_sha256": "64e9c66f5eae1e23975c504c840a930b7846b1bdf01f9c39464ff9c9e743d300",
+      "export_sha256": "64e9c66f5eae1e23975c504c840a930b7846b1bdf01f9c39464ff9c9e743d300",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/diagnostics/parameter_sensitivity.csv",
+      "destination": "reports/local_agent/diagnostics/parameter_sensitivity.csv",
+      "original_sha256": "01a3180fff53705936ae07e59c61658b7c4135b9f3979e3e0d01dfbd2a47fd5d",
+      "export_sha256": "01a3180fff53705936ae07e59c61658b7c4135b9f3979e3e0d01dfbd2a47fd5d",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/events.jsonl",
+      "destination": "reports/local_agent/events.jsonl",
+      "original_sha256": "fc664c4b088e40ec40d137defefb12526d99a308bfc0688f359d7462b0ec342d",
+      "export_sha256": "fc664c4b088e40ec40d137defefb12526d99a308bfc0688f359d7462b0ec342d",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/predeclared_protocol.json",
+      "destination": "reports/local_agent/predeclared_protocol.json",
+      "original_sha256": "e5bbbe9d156e647d2425232c49b5c49da3346bea13aefa528857625c98c3e303",
+      "export_sha256": "e5bbbe9d156e647d2425232c49b5c49da3346bea13aefa528857625c98c3e303",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/report/agent_curves.png",
+      "destination": "reports/local_agent/report/agent_curves.png",
+      "original_sha256": "cac65344845f2c21460a4ba4fd086a0d6adff1dbe93ed3ad2d87f11be0979953",
+      "export_sha256": "cac65344845f2c21460a4ba4fd086a0d6adff1dbe93ed3ad2d87f11be0979953",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/report/bounds_curve_validation.png",
+      "destination": "reports/local_agent/report/bounds_curve_validation.png",
+      "original_sha256": "312aacfc3d31248acfb16a573728fb94fdfe4ecd38a03fc089c28d1ca8f563b3",
+      "export_sha256": "312aacfc3d31248acfb16a573728fb94fdfe4ecd38a03fc089c28d1ca8f563b3",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/report/coupling_spectrum.png",
+      "destination": "reports/local_agent/report/coupling_spectrum.png",
+      "original_sha256": "6271f0adf06cebc9a58d5c335382926468fbb12896892788ae3c1f68f3318ddf",
+      "export_sha256": "6271f0adf06cebc9a58d5c335382926468fbb12896892788ae3c1f68f3318ddf",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/report/overview.html",
+      "destination": "reports/local_agent/report/overview.html",
+      "original_sha256": "c8408a6c141cdb73d1244accda8e939aa834a3fc13cbb05b620f80e11ec9e7b3",
+      "export_sha256": "c8408a6c141cdb73d1244accda8e939aa834a3fc13cbb05b620f80e11ec9e7b3",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/report/report_summary.json",
+      "destination": "reports/local_agent/report/report_summary.json",
+      "original_sha256": "fc3ccbfa3962ea223d9b9e7290faf36ff843364dbe78ed33e80f09c705e2fa4d",
+      "export_sha256": "fc3ccbfa3962ea223d9b9e7290faf36ff843364dbe78ed33e80f09c705e2fa4d",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/report/sensitivity.png",
+      "destination": "reports/local_agent/report/sensitivity.png",
+      "original_sha256": "70aaa1abc9aa5493ad7fff9976127c91d09ccdca8843470a397f7750e588f94f",
+      "export_sha256": "70aaa1abc9aa5493ad7fff9976127c91d09ccdca8843470a397f7750e588f94f",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/report/validation_report.md",
+      "destination": "reports/local_agent/report/validation_report.md",
+      "original_sha256": "f97a395e0dd9f22609d029e6b96e9dfccc3d2b4b0bc228664790a9a09e110d7a",
+      "export_sha256": "f97a395e0dd9f22609d029e6b96e9dfccc3d2b4b0bc228664790a9a09e110d7a",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/run_state.json",
+      "destination": "reports/local_agent/run_state.json",
+      "original_sha256": "021b9febf0ddd3bab23a14bc772f9612be0bdada72c3df198d422ffd5fa9fa6f",
+      "export_sha256": "021b9febf0ddd3bab23a14bc772f9612be0bdada72c3df198d422ffd5fa9fa6f",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/verification/card_verification.json",
+      "destination": "reports/local_agent/verification/card_verification.json",
+      "original_sha256": "eb5ef551e8d3173b43c92c1d137cf8825acb1baae70c2e18dae645f5281a5ae1",
+      "export_sha256": "eb5ef551e8d3173b43c92c1d137cf8825acb1baae70c2e18dae645f5281a5ae1",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/verification/test_metrics.json",
+      "destination": "reports/local_agent/verification/test_metrics.json",
+      "original_sha256": "877e2457e4073736a4b1b4272ac3f898bf01e526ead8327ee6e7378f3382b435",
+      "export_sha256": "877e2457e4073736a4b1b4272ac3f898bf01e526ead8327ee6e7378f3382b435",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/verification/test_predictions.csv",
+      "destination": "reports/local_agent/verification/test_predictions.csv",
+      "original_sha256": "b789d342b5a7c9c43cd66e4e75c038e069b85ad7461f858631314fa039378f12",
+      "export_sha256": "b789d342b5a7c9c43cd66e4e75c038e069b85ad7461f858631314fa039378f12",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/results/verification/train_predictions.csv",
+      "destination": "reports/local_agent/verification/train_predictions.csv",
+      "original_sha256": "16663df14b0e6569db3730a8fb25fdc68a01830efab9514b9a74a9b3b54fe6df",
+      "export_sha256": "16663df14b0e6569db3730a8fb25fdc68a01830efab9514b9a74a9b3b54fe6df",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/models/fitted_model.lib",
+      "destination": "reports/local_agent/model_cards/fitted_model.lib",
+      "original_sha256": "1c6c127c7ea27a7ef47522cc8b831a9e138d3ec5cd8fbc4712a6f69a45817d93",
+      "export_sha256": "1c6c127c7ea27a7ef47522cc8b831a9e138d3ec5cd8fbc4712a6f69a45817d93",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/GaN_HEMT_Local_Agent/models/fitted_parameters.json",
+      "destination": "reports/local_agent/model_cards/fitted_parameters.json",
+      "original_sha256": "045ccdf43a87900100257aa8c8eecedccdba150ee00fa54d359aa074785d6bf7",
+      "export_sha256": "045ccdf43a87900100257aa8c8eecedccdba150ee00fa54d359aa074785d6bf7",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/MeQLab_Local_Integration/pmms_client.py",
+      "destination": "outputs/MeQLab_Local_Integration/pmms_client.py",
+      "original_sha256": "10bfdbae48334da74d0fdcdd5908248597b58ec6c2f165753011270d569566e4",
+      "export_sha256": "48d72e63ff5fb117fcd9440294db0be20c66a8776720a949600dd812e71d8e39",
+      "changed_from_original": true
+    },
+    {
+      "source": "outputs/MeQLab_Local_Integration/session_host.py",
+      "destination": "outputs/MeQLab_Local_Integration/session_host.py",
+      "original_sha256": "9fe719c6677f1e00acf220df84b015b04c8df93d96f0b8053fae33b13b26804b",
+      "export_sha256": "9fe719c6677f1e00acf220df84b015b04c8df93d96f0b8053fae33b13b26804b",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/MeQLab_Local_Integration/submit_request.py",
+      "destination": "outputs/MeQLab_Local_Integration/submit_request.py",
+      "original_sha256": "4974f4771394682d3310ba0f945f8f8b867fb22a44efc140ff32c36414be1774",
+      "export_sha256": "4974f4771394682d3310ba0f945f8f8b867fb22a44efc140ff32c36414be1774",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/MeQLab_Local_Integration/connection_acceptance.py",
+      "destination": "outputs/MeQLab_Local_Integration/connection_acceptance.py",
+      "original_sha256": "7c0d9d7af54eda7e449e35c8c0987e1ceb7cfa26841d4e072144faf8127a1d18",
+      "export_sha256": "3740f1560892ecd27445f5d9043dfdfe54b895c4a0e927009d74bef6c9de4239",
+      "changed_from_original": true
+    },
+    {
+      "source": "outputs/MeQLab_Local_Integration/results/acceptance_01/summary.json",
+      "destination": "reports/meqlab/internal_mos_acceptance.json",
+      "original_sha256": "ac04fa61aa746c2d6d949ece135dda03615d3e6ed301d3d6b0b83b5fcd15b9c4",
+      "export_sha256": "c97be0d3f264214ddf4fe19226a061cfb46e85914b7c1e988b01e197660a921e",
+      "changed_from_original": true
+    },
+    {
+      "source": "outputs/MeQLab_Official_Demo_Integration/probe_demo.py",
+      "destination": "outputs/MeQLab_Official_Demo_Integration/probe_demo.py",
+      "original_sha256": "d4e4d51a6d571f13f266ebde172148768ea99e8d4844fcfe2a2aed00686ec060",
+      "export_sha256": "d4e4d51a6d571f13f266ebde172148768ea99e8d4844fcfe2a2aed00686ec060",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/MeQLab_Official_Demo_Integration/diagnose_control.py",
+      "destination": "outputs/MeQLab_Official_Demo_Integration/diagnose_control.py",
+      "original_sha256": "5a64050119331ec7e4a9c021c5d8bdf5706a9233521e4ccf89981c4911bef6f5",
+      "export_sha256": "86169b6798f635ff591a2318872d48d3b8c4d0fb7e545637027e79e205ddf5c7",
+      "changed_from_original": true
+    },
+    {
+      "source": "outputs/MeQLab_Official_Demo_Integration/diagnose_local.py",
+      "destination": "outputs/MeQLab_Official_Demo_Integration/diagnose_local.py",
+      "original_sha256": "4054b064ebca3b30633d3efe5441c2f78b3d7319550dd503d68768a857f74723",
+      "export_sha256": "4054b064ebca3b30633d3efe5441c2f78b3d7319550dd503d68768a857f74723",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/MeQLab_Official_Demo_Integration/diagnose_nano_transport.py",
+      "destination": "outputs/MeQLab_Official_Demo_Integration/diagnose_nano_transport.py",
+      "original_sha256": "3efdead3dadf43883f6a0448cb4c3795bdca6a1fb2cb89c494de2c7752edb972",
+      "export_sha256": "1db7b5aee3500ad9b08aca0cd0d735b251868d2f83bb2c2e1e3b0a15c229da99",
+      "changed_from_original": true
+    },
+    {
+      "source": "outputs/MeQLab_Official_Demo_Integration/trace_agent/src/local/nano/Agent.java",
+      "destination": "outputs/MeQLab_Official_Demo_Integration/trace_agent/src/local/nano/Agent.java",
+      "original_sha256": "a27183ada1f12c293697cc560fe17d4c08ae1eb19b4cdee604aa7444133d635f",
+      "export_sha256": "a27183ada1f12c293697cc560fe17d4c08ae1eb19b4cdee604aa7444133d635f",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/MeQLab_Official_Demo_Integration/trace_agent/src/local/nano/Trace.java",
+      "destination": "outputs/MeQLab_Official_Demo_Integration/trace_agent/src/local/nano/Trace.java",
+      "original_sha256": "b9e0efeabfc88ffc86c26d536bd00e121702b1d1e11d2c1f4887f429ed04d775",
+      "export_sha256": "b9e0efeabfc88ffc86c26d536bd00e121702b1d1e11d2c1f4887f429ed04d775",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/MeQLab_Official_Demo_Integration/trace_agent/manifest.mf",
+      "destination": "outputs/MeQLab_Official_Demo_Integration/trace_agent/manifest.mf",
+      "original_sha256": "6b442662d87a2c248f53c290b77674f2bbc3e1c76b61be7907e05b7af9af9bf8",
+      "export_sha256": "6b442662d87a2c248f53c290b77674f2bbc3e1c76b61be7907e05b7af9af9bf8",
+      "changed_from_original": false
+    },
+    {
+      "source": "outputs/MeQLab_Official_Demo_Integration/verification_status.json",
+      "destination": "reports/meqlab/historical_verification_status.json",
+      "original_sha256": "ab177850db18294851761301ac568b391fa5543f8c12c20aa94ea9443cd50cb1",
+      "export_sha256": "ab177850db18294851761301ac568b391fa5543f8c12c20aa94ea9443cd50cb1",
+      "changed_from_original": false
+    },
+    {
+      "source": "work/download_gan_datasets.py",
+      "destination": "work/download_gan_datasets.py",
+      "original_sha256": "0d9562a7f44665fc653fa6c5fc4d478f491d0b06a380e7795e0930c48db4316f",
+      "export_sha256": "0d9562a7f44665fc653fa6c5fc4d478f491d0b06a380e7795e0930c48db4316f",
+      "changed_from_original": false
+    },
+    {
+      "source": "work/prepare_gan_data.py",
+      "destination": "work/prepare_gan_data.py",
+      "original_sha256": "d704a9e16c2c1e9fe025e22c58ca00159c2f456c717d40197341266129e25f55",
+      "export_sha256": "d704a9e16c2c1e9fe025e22c58ca00159c2f456c717d40197341266129e25f55",
+      "changed_from_original": false
+    },
+    {
+      "source": "work/verify_gan_data.py",
+      "destination": "work/verify_gan_data.py",
+      "original_sha256": "2d9cb2f1911fb1ff9ff2f93c2850afeef39a0a428ff19f477d866629c7cef8bc",
+      "export_sha256": "2d9cb2f1911fb1ff9ff2f93c2850afeef39a0a428ff19f477d866629c7cef8bc",
+      "changed_from_original": false
+    },
+    {
+      "source": "work/finalize_gan_prepared.py",
+      "destination": "work/finalize_gan_prepared.py",
+      "original_sha256": "ac3609f1a3eda7a5fa35e5b11aef88248039ba07bb863788543f1e0d9eae846b",
+      "export_sha256": "ac3609f1a3eda7a5fa35e5b11aef88248039ba07bb863788543f1e0d9eae846b",
+      "changed_from_original": false
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "replay_directory": ".\\outputs\\DFO_DC_Baseline\\runs\\20261021_000923",
+  "same_parameter_values": true,
+  "max_absolute_parameter_difference": 0,
+  "max_absolute_prediction_difference": 0.0,
+  "replay_cli_verification": true,
+  "same_original_train_sha256": true,
+  "purpose": "Replay a fixed protocol only; results are not used to select or retune the delivered model."
+}

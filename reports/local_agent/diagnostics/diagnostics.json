@@ -1,0 +1,469 @@
+{
+  "scope": "Training-only local numerical diagnostics at the frozen baseline; no confidence intervals or uniqueness claim.",
+  "source_parameter_sha256": "cb23b14fe776fe6775b153ceafc92628e5422e7d32de20c4cc647437f980f83b",
+  "target_rows": 4824,
+  "safe_gm_targets": 3134,
+  "training_cost": 0.0009663463428791349,
+  "simulation_calls": 123,
+  "parameters": [
+    {
+      "parameter": "RTH0",
+      "normalized_position": 1.0,
+      "near_bound": "upper",
+      "rms_sensitivity": 0.0022495673848645665,
+      "relative_step_disagreement": 1.8015464342145388e-05
+    },
+    {
+      "parameter": "VOFF",
+      "normalized_position": 0.44737908253027886,
+      "near_bound": "",
+      "rms_sensitivity": 0.5829888189571064,
+      "relative_step_disagreement": 4.7817878603598316e-06
+    },
+    {
+      "parameter": "NFACTOR",
+      "normalized_position": 0.6474241889593015,
+      "near_bound": "",
+      "rms_sensitivity": 0.1360561119270653,
+      "relative_step_disagreement": 5.398653496546933e-07
+    },
+    {
+      "parameter": "U0",
+      "normalized_position": 0.13651870020362186,
+      "near_bound": "",
+      "rms_sensitivity": 0.5942484655694188,
+      "relative_step_disagreement": 2.352432702923051e-06
+    },
+    {
+      "parameter": "UA",
+      "normalized_position": 0.010757380146966738,
+      "near_bound": "",
+      "rms_sensitivity": 8.704902255923606,
+      "relative_step_disagreement": 0.00031583785636405635
+    },
+    {
+      "parameter": "UB",
+      "normalized_position": 0.00022155259074926932,
+      "near_bound": "lower",
+      "rms_sensitivity": 6.69962028449914e-06,
+      "relative_step_disagreement": 0.006950503488368775
+    },
+    {
+      "parameter": "VSAT",
+      "normalized_position": 0.9999999999999973,
+      "near_bound": "upper",
+      "rms_sensitivity": 0.03648221361228004,
+      "relative_step_disagreement": 0.0012002065047010708
+    },
+    {
+      "parameter": "LAMBDA",
+      "normalized_position": 0.9999999999999999,
+      "near_bound": "upper",
+      "rms_sensitivity": 0.009888817992978804,
+      "relative_step_disagreement": 2.4650783784889546e-05
+    },
+    {
+      "parameter": "UTE",
+      "normalized_position": 0.9999999999999999,
+      "near_bound": "upper",
+      "rms_sensitivity": 0.08171641384988648,
+      "relative_step_disagreement": 0.00010329376501092124
+    },
+    {
+      "parameter": "ETA0",
+      "normalized_position": 0.4098852819169705,
+      "near_bound": "",
+      "rms_sensitivity": 1.052813289393187,
+      "relative_step_disagreement": 1.4975480717470924e-05
+    },
+    {
+      "parameter": "VDSCALE",
+      "normalized_position": 0.766339721823736,
+      "near_bound": "",
+      "rms_sensitivity": 0.34407626161420374,
+      "relative_step_disagreement": 2.1775167550442844e-06
+    },
+    {
+      "parameter": "CDSCD",
+      "normalized_position": 0.31769970724048024,
+      "near_bound": "",
+      "rms_sensitivity": 0.7281252164634855,
+      "relative_step_disagreement": 2.1315481762776456e-05
+    },
+    {
+      "parameter": "RSC",
+      "normalized_position": 0.2367837351180483,
+      "near_bound": "",
+      "rms_sensitivity": 0.43849715732975286,
+      "relative_step_disagreement": 2.4073627035689723e-06
+    },
+    {
+      "parameter": "RDC",
+      "normalized_position": 0.5635808365296658,
+      "near_bound": "",
+      "rms_sensitivity": 0.12653059427911167,
+      "relative_step_disagreement": 5.8253135409815345e-06
+    },
+    {
+      "parameter": "DELTA",
+      "normalized_position": 9.114664578646625e-11,
+      "near_bound": "lower",
+      "rms_sensitivity": 0.034321584334546386,
+      "relative_step_disagreement": 0.0037781015936144803
+    },
+    {
+      "parameter": "THESAT",
+      "normalized_position": 0.9999999999999999,
+      "near_bound": "upper",
+      "rms_sensitivity": 0.3963514387519514,
+      "relative_step_disagreement": 0.0005636019885262363
+    },
+    {
+      "parameter": "VSATACCS",
+      "normalized_position": 1.043529257276532e-06,
+      "near_bound": "lower",
+      "rms_sensitivity": 0.26491872218366963,
+      "relative_step_disagreement": 0.07982399549941065
+    },
+    {
+      "parameter": "NS0ACCS",
+      "normalized_position": 0.5555891695551324,
+      "near_bound": "",
+      "rms_sensitivity": 0.5345366910798487,
+      "relative_step_disagreement": 0.00021726371635219445
+    },
+    {
+      "parameter": "NS0ACCD",
+      "normalized_position": 0.3706716942962295,
+      "near_bound": "",
+      "rms_sensitivity": 0.34383428751132233,
+      "relative_step_disagreement": 0.01012270832441653
+    },
+    {
+      "parameter": "U0ACCS",
+      "normalized_position": 0.23919062249620718,
+      "near_bound": "",
+      "rms_sensitivity": 0.07978594458092438,
+      "relative_step_disagreement": 2.594999537312495e-05
+    },
+    {
+      "parameter": "U0ACCD",
+      "normalized_position": 0.9999999998015637,
+      "near_bound": "upper",
+      "rms_sensitivity": 0.012854491370394372,
+      "relative_step_disagreement": 0.0015149472436512886
+    },
+    {
+      "parameter": "MEXPACCS",
+      "normalized_position": 2.705508039824167e-11,
+      "near_bound": "lower",
+      "rms_sensitivity": 0.0823168173295682,
+      "relative_step_disagreement": 0.014818897798207602
+    },
+    {
+      "parameter": "MEXPACCD",
+      "normalized_position": 0.16156629073865558,
+      "near_bound": "",
+      "rms_sensitivity": 0.05935373625056534,
+      "relative_step_disagreement": 0.0001582254957058033
+    }
+  ],
+  "inward_perturbations": [
+    {
+      "parameter": "RTH0",
+      "inward_fraction_of_range": 0.02,
+      "training_cost": 0.0009663838436240955,
+      "cost_change_fraction": 3.880673346254886e-05
+    },
+    {
+      "parameter": "RTH0",
+      "inward_fraction_of_range": 0.05,
+      "training_cost": 0.0009664476634507203,
+      "cost_change_fraction": 0.00010484912819510838
+    },
+    {
+      "parameter": "RTH0",
+      "inward_fraction_of_range": 0.1,
+      "training_cost": 0.0009665741949906311,
+      "cost_change_fraction": 0.0002357872135339147
+    },
+    {
+      "parameter": "UB",
+      "inward_fraction_of_range": 0.02,
+      "training_cost": 0.0009663466304918395,
+      "cost_change_fraction": 2.9762900921989145e-07
+    },
+    {
+      "parameter": "UB",
+      "inward_fraction_of_range": 0.05,
+      "training_cost": 0.0009663471438457879,
+      "cost_change_fraction": 8.288608519410408e-07
+    },
+    {
+      "parameter": "UB",
+      "inward_fraction_of_range": 0.1,
+      "training_cost": 0.0009663482757739325,
+      "cost_change_fraction": 2.0002091504806195e-06
+    },
+    {
+      "parameter": "VSAT",
+      "inward_fraction_of_range": 0.02,
+      "training_cost": 0.0009675532266605638,
+      "cost_change_fraction": 0.0012489143155787411
+    },
+    {
+      "parameter": "VSAT",
+      "inward_fraction_of_range": 0.05,
+      "training_cost": 0.0009714776771970078,
+      "cost_change_fraction": 0.0053100364643431765
+    },
+    {
+      "parameter": "VSAT",
+      "inward_fraction_of_range": 0.1,
+      "training_cost": 0.0009843301763150722,
+      "cost_change_fraction": 0.01861013245246649
+    },
+    {
+      "parameter": "LAMBDA",
+      "inward_fraction_of_range": 0.02,
+      "training_cost": 0.0009672527177180879,
+      "cost_change_fraction": 0.0009379399483756108
+    },
+    {
+      "parameter": "LAMBDA",
+      "inward_fraction_of_range": 0.05,
+      "training_cost": 0.0009687576173593069,
+      "cost_change_fraction": 0.0024952487252012014
+    },
+    {
+      "parameter": "LAMBDA",
+      "inward_fraction_of_range": 0.1,
+      "training_cost": 0.0009716541699947017,
+      "cost_change_fraction": 0.005492675741652424
+    },
+    {
+      "parameter": "UTE",
+      "inward_fraction_of_range": 0.02,
+      "training_cost": 0.0009729051267815833,
+      "cost_change_fraction": 0.006787197934549182
+    },
+    {
+      "parameter": "UTE",
+      "inward_fraction_of_range": 0.05,
+      "training_cost": 0.0009926526356963743,
+      "cost_change_fraction": 0.027222427042940332
+    },
+    {
+      "parameter": "UTE",
+      "inward_fraction_of_range": 0.1,
+      "training_cost": 0.0010517448863024974,
+      "cost_change_fraction": 0.08837260476293195
+    },
+    {
+      "parameter": "DELTA",
+      "inward_fraction_of_range": 0.02,
+      "training_cost": 0.0009746255279086311,
+      "cost_change_fraction": 0.008567513180449548
+    },
+    {
+      "parameter": "DELTA",
+      "inward_fraction_of_range": 0.05,
+      "training_cost": 0.0009872990024438434,
+      "cost_change_fraction": 0.021682349934995432
+    },
+    {
+      "parameter": "DELTA",
+      "inward_fraction_of_range": 0.1,
+      "training_cost": 0.0010084536303261408,
+      "cost_change_fraction": 0.04357370186919867
+    },
+    {
+      "parameter": "THESAT",
+      "inward_fraction_of_range": 0.02,
+      "training_cost": 0.0010345118461677406,
+      "cost_change_fraction": 0.07053941249005322
+    },
+    {
+      "parameter": "THESAT",
+      "inward_fraction_of_range": 0.05,
+      "training_cost": 0.001374606727415435,
+      "cost_change_fraction": 0.4224783252347476
+    },
+    {
+      "parameter": "THESAT",
+      "inward_fraction_of_range": 0.1,
+      "training_cost": 0.0025817977010146142,
+      "cost_change_fraction": 1.6717105311563545
+    },
+    {
+      "parameter": "VSATACCS",
+      "inward_fraction_of_range": 0.02,
+      "training_cost": 0.0009835548067617646,
+      "cost_change_fraction": 0.017807760136348983
+    },
+    {
+      "parameter": "VSATACCS",
+      "inward_fraction_of_range": 0.05,
+      "training_cost": 0.0010106094003381784,
+      "cost_change_fraction": 0.04580454801243002
+    },
+    {
+      "parameter": "VSATACCS",
+      "inward_fraction_of_range": 0.1,
+      "training_cost": 0.001030170563788538,
+      "cost_change_fraction": 0.06604694205107146
+    },
+    {
+      "parameter": "U0ACCD",
+      "inward_fraction_of_range": 0.02,
+      "training_cost": 0.0009664331596821286,
+      "cost_change_fraction": 8.984025617048816e-05
+    },
+    {
+      "parameter": "U0ACCD",
+      "inward_fraction_of_range": 0.05,
+      "training_cost": 0.0009668255176278837,
+      "cost_change_fraction": 0.0004958623295672537
+    },
+    {
+      "parameter": "U0ACCD",
+      "inward_fraction_of_range": 0.1,
+      "training_cost": 0.0009682909849800228,
+      "cost_change_fraction": 0.002012365561496337
+    },
+    {
+      "parameter": "MEXPACCS",
+      "inward_fraction_of_range": 0.02,
+      "training_cost": 0.0009688533886883157,
+      "cost_change_fraction": 0.002594355354738846
+    },
+    {
+      "parameter": "MEXPACCS",
+      "inward_fraction_of_range": 0.05,
+      "training_cost": 0.0009761493153972187,
+      "cost_change_fraction": 0.01014436758654956
+    },
+    {
+      "parameter": "MEXPACCS",
+      "inward_fraction_of_range": 0.1,
+      "training_cost": 0.0009882716080773905,
+      "cost_change_fraction": 0.02268882720964351
+    }
+  ],
+  "high_coupling_pairs": [
+    {
+      "a": "NS0ACCS",
+      "b": "U0ACCS",
+      "absolute_derivative_cosine": 0.998113203238823
+    }
+  ],
+  "weak_modes": [
+    {
+      "U0ACCS": -0.8153145370783901,
+      "U0ACCD": 0.5112925835899639,
+      "MEXPACCS": -0.187657626121286,
+      "NS0ACCS": 0.15269582087263275,
+      "RTH0": -0.08487858515474576
+    },
+    {
+      "RTH0": -0.9349869512829146,
+      "U0ACCD": -0.33016651198049374,
+      "U0ACCS": -0.09940723773558997,
+      "LAMBDA": 0.056530479285920344,
+      "MEXPACCD": 0.04417023496149244
+    },
+    {
+      "UB": 0.9999972638523457,
+      "RTH0": -0.002027627380132001,
+      "U0ACCD": -0.0009422696968112464,
+      "U0ACCS": -0.0006075810125247057,
+      "MEXPACCS": -0.00023091426807731285
+    }
+  ],
+  "singular_values": [
+    1214.8050807992431,
+    199.06009018913028,
+    61.41215661310887,
+    55.76599344711111,
+    46.077497626431864,
+    35.517410492336865,
+    19.845996243701702,
+    17.281189713545277,
+    8.456166697475203,
+    6.6967719264964405,
+    4.358974375826547,
+    3.5477433015772855,
+    2.2585348461636023,
+    1.9212341382748925,
+    1.481025617604898,
+    1.288163946387584,
+    0.7339655415761228,
+    0.2586724364928751,
+    0.11418705893519503,
+    0.03667397098686679,
+    0.014138117126132424,
+    0.007330597535704945,
+    4.347612484274065e-05
+  ],
+  "relative_rank_threshold": 1e-06,
+  "numerical_rank": 22,
+  "condition_number": 27941889.604774263,
+  "training_regions": [
+    {
+      "region": "Vds<=2V",
+      "points": 489,
+      "metrics": {
+        "id_A": {
+          "rmse": 0.001614961996483189,
+          "mae": 0.0009537041729933831,
+          "nrmse_train_range": 0.010300816475514894,
+          "nrmse_own_range": 0.011651962542675314
+        },
+        "gm_S": {
+          "rmse": 0.0026131817244767755,
+          "mae": 0.001698009401411021,
+          "nrmse_train_range": 0.03152133132208462,
+          "nrmse_own_range": 0.03428831918324656
+        }
+      }
+    },
+    {
+      "region": "2<Vds<=10V",
+      "points": 1911,
+      "metrics": {
+        "id_A": {
+          "rmse": 0.000976822190145225,
+          "mae": 0.0006660895921508066,
+          "nrmse_train_range": 0.006230528106424837,
+          "nrmse_own_range": 0.006230536695011883
+        },
+        "gm_S": {
+          "rmse": 0.0013614191056017248,
+          "mae": 0.0009675482804318788,
+          "nrmse_train_range": 0.01642202771201474,
+          "nrmse_own_range": 0.01642942612534768
+        }
+      }
+    },
+    {
+      "region": "Vds>10V",
+      "points": 2424,
+      "metrics": {
+        "id_A": {
+          "rmse": 0.0003567749051598641,
+          "mae": 0.0002489283951683108,
+          "nrmse_train_range": 0.002275640435579282,
+          "nrmse_own_range": 0.00228241885824227
+        },
+        "gm_S": {
+          "rmse": 0.0008992181287391538,
+          "mae": 0.0006174727486163171,
+          "nrmse_train_range": 0.010846759068195726,
+          "nrmse_own_range": 0.010929370980697932
+        }
+      }
+    }
+  ],
+  "bounds_changed": false,
+  "test_targets_used": false
+}

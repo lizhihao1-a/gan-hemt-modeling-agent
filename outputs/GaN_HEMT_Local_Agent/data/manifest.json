@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-10-20T15:56:03.925417+00:00",
+  "source": ".\\outputs\\GaN_HEMT_Prepared\\data\\by_device\\DFO_4x50.csv",
+  "source_sha256": "fc46425b15d8b3e7f50cdf136b41a690548b4c890fbddee979806f24fe0ea643",
+  "train_sha256": "b2c34861960505e0c3f94a36e96ad7638c8b7599f3ba93092259a2ee909ee8e9",
+  "test_sha256": "043b99d2f919ccfe1350f66e50822083dd86f961175a3a41a9e1f33430136536",
+  "counts": {
+    "train": 4824,
+    "test": 1206
+  },
+  "grid": [
+    30,
+    201
+  ],
+  "split": "Original author train/test labels; never repartition test."
+}

@@ -1,0 +1,26 @@
+{
+  "author_repository": "https://github.com/rafapm/dfo_parameter_extraction",
+  "commit": "a8d945a1d2f70c27998be7d0071cd6602bca02b5",
+  "model_zip_member": "dfo_parameter_extraction-a8d945a1d2f70c27998be7d0071cd6602bca02b5/notebooks/HEMT_ex/ngspice_notebook_and_files/asmhemt.va",
+  "compiled_model_source_sha256": "189002cdd52996994cb4dcf7171050374237832f61dbfa1a3a43cc4439c94edc",
+  "downloads": [
+    {
+      "filename": "ngspice-47_64.7z",
+      "url": "https://downloads.sourceforge.net/project/ngspice/ng-spice-rework/47/ngspice-47_64.7z",
+      "bytes": 13814879,
+      "sha256": "59225971bd68cdd1199443649aa4615a9e6d684933f205ab49006a3942518f5a"
+    },
+    {
+      "filename": "ngspice-47_dll_64.7z",
+      "url": "https://downloads.sourceforge.net/project/ngspice/ng-spice-rework/47/ngspice-47_dll_64.7z",
+      "bytes": 4385088,
+      "sha256": "5bf5eec7db989f74849cdb32f7df62693f4f149cceeebcbd222eb35c2bb821eb"
+    },
+    {
+      "filename": "openvaf22.zip",
+      "url": "https://openva.fra1.cdn.digitaloceanspaces.com/openvaf_22_12_0_windows_amd64.zip",
+      "bytes": 18146822,
+      "sha256": "7307066cd93576ce2ee8fe4ea8f4156c505aabd1dd95e30e4df6fd7fee052856"
+    }
+  ]
+}

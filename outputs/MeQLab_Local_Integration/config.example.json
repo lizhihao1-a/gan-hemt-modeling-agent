@@ -1,0 +1,8 @@
+{
+  "pmms_path": "C:/MeQLab/pmms.exe",
+  "meqlab_path": "C:/MeQLab/MS-MeQLab/bin/MS-MeQLab64.exe",
+  "feature": "prim|rf_main|pnano",
+  "runtime_root": "C:/GaNWork/runtime",
+  "project_path": "C:/GaNWork/runtime/projects/probe",
+  "initialize_timeout_seconds": 100
+}

@@ -1,0 +1,498 @@
+{
+  "archives": [
+    {
+      "file": "01_Real_IV_CV_TLN2_GS65030\\original\\Full_HEMT_Characterization_and_Modeling_Process-1.zip",
+      "bytes": 738480,
+      "sha256": "6498479447472aa0c3cff56dc3f1eefc51ef0aa87a8012bed4accf2b6e6186e4",
+      "zip_crc_pass": true
+    },
+    {
+      "file": "02_ASM_HEMT_DFO_Measurements\\original\\dfo_parameter_extraction_a8d945a1d2f7.zip",
+      "bytes": 34070509,
+      "sha256": "7958663fbc8f1d2a64b89850ec0fbabba7feec08779c03908e8d6a3bb5eabcdf",
+      "zip_crc_pass": true
+    },
+    {
+      "file": "03_ASM_HEMT_Model_Reference\\original\\CMC.zip",
+      "bytes": 1029332,
+      "sha256": "d8e25a45c93457229ac5c5faa73eb0b06d48ae8ff1ee8b04f3e9ecb0a72cf034",
+      "zip_crc_pass": true
+    }
+  ],
+  "rdg_csv": [
+    {
+      "file": "01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\GS65030\\Ciss-Vds [GS65030B(1) ; 9_24_2025 5_24_48 PM].csv",
+      "records": 101,
+      "columns": [
+        "Vds",
+        "C",
+        "G"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\GS65030\\Coss-Vds [GS65030B(1) ; 9_24_2025 3_52_33 PM].csv",
+      "records": 101,
+      "columns": [
+        "Vds",
+        "C",
+        "G"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\GS65030\\Crss-Vds [GS65030B(1) ; 9_24_2025 3_39_18 PM].csv",
+      "records": 101,
+      "columns": [
+        "Vds",
+        "C",
+        "G"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\GS65030\\Ids-Vds continuous [GS65030B(1) _contin-0-1_; 9_29_2025 11_24_16 AM].csv",
+      "records": 202,
+      "columns": [
+        "Ids",
+        "Vds",
+        "Igs",
+        "Vgs"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\GS65030\\Ids-Vds pulse [GS65030B(1) _pulse-2-6_; 9_29_2025 11_22_10 AM].csv",
+      "records": 505,
+      "columns": [
+        "Ids",
+        "Vds",
+        "Igs",
+        "Vgs"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\GS65030\\Ids-Vgs continuous [GS65030B(1) ; 9_25_2025 9_37_54 AM].csv",
+      "records": 101,
+      "columns": [
+        "Ids",
+        "Vds",
+        "Igs",
+        "Vgs"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\GS65030\\Ids-Vgs pulse [GS65030B(1) ; 9_23_2025 1_11_34 PM].csv",
+      "records": 101,
+      "columns": [
+        "Ids",
+        "Vds",
+        "Igs",
+        "Vgs"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\GS65030\\Isd-Vsd pulse [GS65030B(1) ; 9_26_2025 11_51_29 AM].csv",
+      "records": 505,
+      "columns": [
+        "Ids",
+        "Vds",
+        "Igs",
+        "Vgs"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\TLN2\\Ciss-Vds [TLN2(4) ; 8_18_2025 4_42_23 PM].csv",
+      "records": 101,
+      "columns": [
+        "Ids",
+        "Vds",
+        "C",
+        "G"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\TLN2\\Coss-Vds [TLN2(1) ; 8_18_2025 4_28_38 PM].csv",
+      "records": 101,
+      "columns": [
+        "Ids",
+        "Vds",
+        "C",
+        "G"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\TLN2\\Crss-Vds [TLN2(2) ; 8_18_2025 4_33_28 PM].csv",
+      "records": 101,
+      "columns": [
+        "Ids",
+        "Vds",
+        "C",
+        "G"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\TLN2\\Ids-Vds continu [TLN2(1) ; 8_18_2025 12_01_29 PM].csv",
+      "records": 303,
+      "columns": [
+        "Ids",
+        "Vds",
+        "Igs",
+        "Vgs"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\TLN2\\Ids-Vds pulse [TLN2(1) ; 8_18_2025 12_01_51 PM].csv",
+      "records": 505,
+      "columns": [
+        "Ids",
+        "Vds",
+        "Igs",
+        "Vgs"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\TLN2\\Ids-Vgs continu [TLN2(1) ; 8_18_2025 12_01_02 PM].csv",
+      "records": 101,
+      "columns": [
+        "Igs",
+        "Vgs",
+        "Ids",
+        "Vds",
+        "absIds",
+        "absIgs"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\TLN2\\Ids-Vgs pulse [TLN2(1) ; 8_18_2025 12_00_39 PM].csv",
+      "records": 101,
+      "columns": [
+        "Igs",
+        "Vgs",
+        "Ids",
+        "Vds",
+        "absIds",
+        "absIgs"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\TLN2\\Isd-Vsd pulse [TLN2(1) ; 8_18_2025 12_20_14 PM].csv",
+      "records": 808,
+      "columns": [
+        "Ids",
+        "Vds",
+        "Igs",
+        "Vgs"
+      ],
+      "all_values_numeric_and_finite": true
+    }
+  ],
+  "dfo_csv": [
+    {
+      "file": "02_ASM_HEMT_DFO_Measurements\\extracted\\notebooks\\HEMT_ex\\Clipped_All_Data\\id_gm_meas_clipped_all_data.csv",
+      "records": 6030,
+      "columns": [
+        "vd",
+        "vg",
+        "id_meas",
+        "gm_meas"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "02_ASM_HEMT_DFO_Measurements\\extracted\\notebooks\\HEMT_ex\\Clipped_All_Data\\id_gm_sim_clipped_all_data.csv",
+      "records": 6030,
+      "columns": [
+        "vd",
+        "vg",
+        "id_sim",
+        "gm_sim"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "02_ASM_HEMT_DFO_Measurements\\extracted\\notebooks\\HEMT_ex\\Clipped_Glitched_All_Data\\id_gm_meas_clipped_25p_glitched.csv",
+      "records": 6030,
+      "columns": [
+        "vd",
+        "vg",
+        "id_meas",
+        "gm_meas"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "02_ASM_HEMT_DFO_Measurements\\extracted\\notebooks\\HEMT_ex\\Clipped_Glitched_All_Data\\id_gm_meas_clipped_all_data.csv",
+      "records": 6030,
+      "columns": [
+        "vd",
+        "vg",
+        "id_meas",
+        "gm_meas"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "02_ASM_HEMT_DFO_Measurements\\extracted\\notebooks\\HEMT_ex\\Clipped_Glitched_All_Data\\id_gm_meas_test_clipped_25p_glitched.csv",
+      "records": 1206,
+      "columns": [
+        "vd_test",
+        "vg_test",
+        "id_meas_test",
+        "gm_meas_test"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "02_ASM_HEMT_DFO_Measurements\\extracted\\notebooks\\HEMT_ex\\Clipped_Glitched_All_Data\\id_gm_meas_train_clipped_25p_glitched.csv",
+      "records": 4824,
+      "columns": [
+        "vd_train",
+        "vg_train",
+        "id_meas_train",
+        "gm_meas_train"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "02_ASM_HEMT_DFO_Measurements\\extracted\\notebooks\\HEMT_ex\\Clipped_Glitched_All_Data\\id_gm_sim_clipped_25p_glitched_all_data.csv",
+      "records": 6030,
+      "columns": [
+        "vd",
+        "vg",
+        "id_sim",
+        "gm_sim"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "02_ASM_HEMT_DFO_Measurements\\extracted\\notebooks\\HEMT_ex\\Clipped_Glitched_Train_Test_Split\\id_gm_meas_clipped_25p_glitched.csv",
+      "records": 6030,
+      "columns": [
+        "vd",
+        "vg",
+        "id_meas",
+        "gm_meas"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "02_ASM_HEMT_DFO_Measurements\\extracted\\notebooks\\HEMT_ex\\Clipped_Glitched_Train_Test_Split\\id_gm_meas_test_clipped_25p_glitched.csv",
+      "records": 1206,
+      "columns": [
+        "vd_test",
+        "vg_test",
+        "id_meas_test",
+        "gm_meas_test"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "02_ASM_HEMT_DFO_Measurements\\extracted\\notebooks\\HEMT_ex\\Clipped_Glitched_Train_Test_Split\\id_gm_meas_train_clipped_25p_glitched.csv",
+      "records": 4824,
+      "columns": [
+        "vd_train",
+        "vg_train",
+        "id_meas_train",
+        "gm_meas_train"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "02_ASM_HEMT_DFO_Measurements\\extracted\\notebooks\\HEMT_ex\\Clipped_Glitched_Train_Test_Split\\id_gm_sim_clipped_25p_glitched.csv",
+      "records": 6030,
+      "columns": [
+        "vd",
+        "vg",
+        "id_sim",
+        "gm_sim"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "02_ASM_HEMT_DFO_Measurements\\extracted\\notebooks\\HEMT_ex\\Clipped_Train_Val_Split\\id_gm_meas_clipped.csv",
+      "records": 6030,
+      "columns": [
+        "vd",
+        "vg",
+        "id_meas",
+        "gm_meas"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "02_ASM_HEMT_DFO_Measurements\\extracted\\notebooks\\HEMT_ex\\Clipped_Train_Val_Split\\id_gm_meas_test_clipped.csv",
+      "records": 1206,
+      "columns": [
+        "vd_test",
+        "vg_test",
+        "id_meas_test",
+        "gm_meas_test"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "02_ASM_HEMT_DFO_Measurements\\extracted\\notebooks\\HEMT_ex\\Clipped_Train_Val_Split\\id_gm_meas_train_clipped.csv",
+      "records": 4824,
+      "columns": [
+        "vd_train",
+        "vg_train",
+        "id_meas_train",
+        "gm_meas_train"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "02_ASM_HEMT_DFO_Measurements\\extracted\\notebooks\\HEMT_ex\\Clipped_Train_Val_Split\\id_gm_sim_clipped.csv",
+      "records": 6030,
+      "columns": [
+        "vd",
+        "vg",
+        "id_sim",
+        "gm_sim"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "02_ASM_HEMT_DFO_Measurements\\extracted\\notebooks\\HEMT_ex\\ngspice_notebook_and_files\\id_gm_meas_data.csv",
+      "records": 6030,
+      "columns": [
+        "vd",
+        "vg",
+        "id_meas",
+        "gm_meas"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "02_ASM_HEMT_DFO_Measurements\\extracted\\notebooks\\HEMT_ex\\Non-Robust_Glitched_All_Data\\id_gm_meas_non_robust_25p_glitched.csv",
+      "records": 6030,
+      "columns": [
+        "vd",
+        "vg",
+        "id_meas",
+        "gm_meas"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "02_ASM_HEMT_DFO_Measurements\\extracted\\notebooks\\HEMT_ex\\Non-Robust_Glitched_All_Data\\id_gm_meas_non_robust_all_data.csv",
+      "records": 6030,
+      "columns": [
+        "vd",
+        "vg",
+        "id_meas",
+        "gm_meas"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "02_ASM_HEMT_DFO_Measurements\\extracted\\notebooks\\HEMT_ex\\Non-Robust_Glitched_All_Data\\id_gm_meas_test_non_robust_25p_glitched.csv",
+      "records": 1206,
+      "columns": [
+        "vd_test",
+        "vg_test",
+        "id_meas_test",
+        "gm_meas_test"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "02_ASM_HEMT_DFO_Measurements\\extracted\\notebooks\\HEMT_ex\\Non-Robust_Glitched_All_Data\\id_gm_meas_train_non_robust_25p_glitched.csv",
+      "records": 4824,
+      "columns": [
+        "vd_train",
+        "vg_train",
+        "id_meas_train",
+        "gm_meas_train"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "02_ASM_HEMT_DFO_Measurements\\extracted\\notebooks\\HEMT_ex\\Non-Robust_Glitched_All_Data\\id_gm_sim_non_robust_25p_glitched_all_data.csv",
+      "records": 6030,
+      "columns": [
+        "vd",
+        "vg",
+        "id_sim",
+        "gm_sim"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "02_ASM_HEMT_DFO_Measurements\\extracted\\notebooks\\HEMT_ex\\Non-Robust_Glitched_Train_Test_Split\\id_gm_meas_clipped_25p_glitched.csv",
+      "records": 6030,
+      "columns": [
+        "vd",
+        "vg",
+        "id_meas",
+        "gm_meas"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "02_ASM_HEMT_DFO_Measurements\\extracted\\notebooks\\HEMT_ex\\Non-Robust_Glitched_Train_Test_Split\\id_gm_meas_test_clipped_25p_glitched.csv",
+      "records": 1206,
+      "columns": [
+        "vd_test",
+        "vg_test",
+        "id_meas_test",
+        "gm_meas_test"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "02_ASM_HEMT_DFO_Measurements\\extracted\\notebooks\\HEMT_ex\\Non-Robust_Glitched_Train_Test_Split\\id_gm_meas_train_clipped_25p_glitched.csv",
+      "records": 4824,
+      "columns": [
+        "vd_train",
+        "vg_train",
+        "id_meas_train",
+        "gm_meas_train"
+      ],
+      "all_values_numeric_and_finite": true
+    },
+    {
+      "file": "02_ASM_HEMT_DFO_Measurements\\extracted\\notebooks\\HEMT_ex\\Non-Robust_Glitched_Train_Test_Split\\id_gm_sim_clipped_25p_glitched.csv",
+      "records": 6030,
+      "columns": [
+        "vd",
+        "vg",
+        "id_sim",
+        "gm_sim"
+      ],
+      "all_values_numeric_and_finite": true
+    }
+  ],
+  "dfo_clean_split": {
+    "clean_rows": 6030,
+    "train_rows": 4824,
+    "test_rows": 1206,
+    "no_row_overlap": true,
+    "union_equals_full_data": true
+  },
+  "dfo_git_blob_verification": {
+    "commit": "a8d945a1d2f70c27998be7d0071cd6602bca02b5",
+    "verified_files": 34,
+    "all_match": true
+  },
+  "summary": {
+    "rdg_measurement_csv_files": 16,
+    "rdg_measurement_records": 3838,
+    "dfo_extracted_csv_files": 25,
+    "dfo_unique_clean_records": 6030,
+    "official_model_package_is_dataset": false,
+    "download_errors": []
+  }
+}

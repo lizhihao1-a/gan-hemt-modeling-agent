@@ -1,0 +1,98 @@
+{
+  "total_records": 9868,
+  "primary_source_files": 17,
+  "source_csv_inventory": 41,
+  "by_device": {
+    "TLN2": {
+      "records": 2121,
+      "files": 8,
+      "curves": 21,
+      "compliance_suspected": 57,
+      "bias_deviation": 57,
+      "near_current_limit": 57,
+      "negative_gm": 0,
+      "nonpositive_forward_id": 1,
+      "vds_range_V": [
+        -3.0000000000000004,
+        50.0
+      ]
+    },
+    "GS65030": {
+      "records": 1717,
+      "files": 8,
+      "curves": 17,
+      "compliance_suspected": 63,
+      "bias_deviation": 963,
+      "near_current_limit": 63,
+      "negative_gm": 0,
+      "nonpositive_forward_id": 36,
+      "vds_range_V": [
+        -4.0768,
+        650.0145
+      ]
+    },
+    "DFO_4x50": {
+      "records": 6030,
+      "files": 1,
+      "curves": 30,
+      "compliance_suspected": 0,
+      "bias_deviation": 0,
+      "near_current_limit": 0,
+      "negative_gm": 358,
+      "nonpositive_forward_id": 0,
+      "vds_range_V": [
+        0.0,
+        20.0
+      ]
+    }
+  },
+  "total_curves": 68,
+  "gap_items": 14,
+  "compliance_suspected_points": 120,
+  "bias_deviation_points": 1020,
+  "negative_gm_points": 358,
+  "original_dfo_split": {
+    "train": 4824,
+    "test": 1206
+  },
+  "read_only_source_hashes": {
+    ".\\outputs\\GaN_HEMT_Datasets\\01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\GS65030\\Ciss-Vds [GS65030B(1) ; 9_24_2025 5_24_48 PM].csv": "773e4aa98e24770068092473678c3e4de45d4f6d4ad4ff85b2b9d7abe9161987",
+    ".\\outputs\\GaN_HEMT_Datasets\\01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\GS65030\\Coss-Vds [GS65030B(1) ; 9_24_2025 3_52_33 PM].csv": "c7eda2e3edc78504adbfeb05afdbc86b066ef09820f938dea48227944b2590f5",
+    ".\\outputs\\GaN_HEMT_Datasets\\01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\GS65030\\Crss-Vds [GS65030B(1) ; 9_24_2025 3_39_18 PM].csv": "686f39c090329f07205ac37c007dc3dd3828fe2e9c80fdebd722c2c25331b10e",
+    ".\\outputs\\GaN_HEMT_Datasets\\01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\GS65030\\Ids-Vds continuous [GS65030B(1) _contin-0-1_; 9_29_2025 11_24_16 AM].csv": "279988b51ea2d855a604be47d7d244a67ad879de9b349e403b50331fa9fbcfeb",
+    ".\\outputs\\GaN_HEMT_Datasets\\01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\GS65030\\Ids-Vds pulse [GS65030B(1) _pulse-2-6_; 9_29_2025 11_22_10 AM].csv": "b48572c4bdfa9fbdbefea8a276ebcca70b3fd20597440da0b933d449e8fdf040",
+    ".\\outputs\\GaN_HEMT_Datasets\\01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\GS65030\\Ids-Vgs continuous [GS65030B(1) ; 9_25_2025 9_37_54 AM].csv": "acf7c3c90fff85d8d7177076f1defd70f7c0f156b7f08194b5889bfe10d11ce0",
+    ".\\outputs\\GaN_HEMT_Datasets\\01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\GS65030\\Ids-Vgs pulse [GS65030B(1) ; 9_23_2025 1_11_34 PM].csv": "a3b798638f74fb154410e0597b449a54f7fdd513c57a410acfadee9117e34053",
+    ".\\outputs\\GaN_HEMT_Datasets\\01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\GS65030\\Isd-Vsd pulse [GS65030B(1) ; 9_26_2025 11_51_29 AM].csv": "7b8a26ff6a2b9c480e33f01369ae4fb43363ee6a6cc72ea2d31400ee69990580",
+    ".\\outputs\\GaN_HEMT_Datasets\\01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\TLN2\\Ciss-Vds [TLN2(4) ; 8_18_2025 4_42_23 PM].csv": "193ed8730ba8600f1db53c84d4acd2603ca81ebadef3ca2e9ad24a4aa101f9d9",
+    ".\\outputs\\GaN_HEMT_Datasets\\01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\TLN2\\Coss-Vds [TLN2(1) ; 8_18_2025 4_28_38 PM].csv": "ee45bed97c6e772a79253998e9b16f400eba789b8aca5f3f1bc1a369e6ced7a9",
+    ".\\outputs\\GaN_HEMT_Datasets\\01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\TLN2\\Crss-Vds [TLN2(2) ; 8_18_2025 4_33_28 PM].csv": "7b4c4906e14bb1f63a6b27eecef600691175a40eaddec936a7b2462ae365c784",
+    ".\\outputs\\GaN_HEMT_Datasets\\01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\TLN2\\Ids-Vds continu [TLN2(1) ; 8_18_2025 12_01_29 PM].csv": "bd466b07c2db2514d0569d589c1170dab454a8ba45b287d8b3ada331411a841c",
+    ".\\outputs\\GaN_HEMT_Datasets\\01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\TLN2\\Ids-Vds pulse [TLN2(1) ; 8_18_2025 12_01_51 PM].csv": "bb9365d509a3ed3c93814b9a5c270c4bb174408cf1577364b3c789484dfa7949",
+    ".\\outputs\\GaN_HEMT_Datasets\\01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\TLN2\\Ids-Vgs continu [TLN2(1) ; 8_18_2025 12_01_02 PM].csv": "c37385d34238d8aed04d3946c36225b2d972c8e996bc0f50401f8159721157bb",
+    ".\\outputs\\GaN_HEMT_Datasets\\01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\TLN2\\Ids-Vgs pulse [TLN2(1) ; 8_18_2025 12_00_39 PM].csv": "148138673399b4e15edd584c273de090aaf32ba8d339712bc7a471a8569b0273",
+    ".\\outputs\\GaN_HEMT_Datasets\\01_Real_IV_CV_TLN2_GS65030\\extracted\\Data\\TLN2\\Isd-Vsd pulse [TLN2(1) ; 8_18_2025 12_20_14 PM].csv": "10e067a01736d291ad9265012f92293b8ce824bacd5a9cdb3f59d0c2626594e9",
+    ".\\outputs\\GaN_HEMT_Datasets\\02_ASM_HEMT_DFO_Measurements\\extracted\\notebooks\\HEMT_ex\\ngspice_notebook_and_files\\id_gm_meas_data.csv": "b7a55171a939666e2b006fc4b445cbcd3d99951a62dc77e5e8892d1c085d333c"
+  },
+  "checks": {
+    "point_ids_unique": true,
+    "all_numeric_values_finite": true,
+    "all_RGD_mapped_measurements_equal_original": true,
+    "no_source_points_deleted": true,
+    "unknown_temperatures_not_filled": true,
+    "original_dfo_split_preserved": true,
+    "pulse_settings_not_assigned_to_continuous_data": true,
+    "raw_source_files_unchanged": true
+  },
+  "export_checks": {
+    "csv_by_device_reconciles": true,
+    "xlsx_all_cells_match_csv": true,
+    "xlsx_cells_checked": 414456,
+    "xlsx_numeric_cells_are_typed_numbers": true,
+    "xlsx_missing_values_are_empty": true,
+    "xlsx_gap_rows": 14,
+    "all_17_raw_copies_match_source_sha256": true,
+    "preview_pngs_verified": 20,
+    "html_local_links_resolve": true
+  }
+}

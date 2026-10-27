@@ -1,0 +1,43 @@
+﻿field,type,unit,missing,description
+point_id,string,,空单元格 / JSON null,来源文件哈希及原记录位置构成的稳定记录 ID
+device_id,string,,空单元格 / JSON null,名义器件组；不等于已确认的物理样品序列号
+measurement_type,string,,空单元格 / JSON null,output_iv / transfer_iv / reverse_iv / cv / iv_gm_grid
+mode,string,,空单元格 / JSON null,continuous / pulsed / ac / unspecified；DFO CSV 未记录波形模式
+curve_id,string,,空单元格 / JSON null,RDG 按 Dimension1/Dimension2 分组；DFO 按原 vg 坐标分组
+train_test_split,string,,空单元格 / JSON null,DFO 原作者 train/test；RDG 为 unassigned
+vds_V,number,V,空单元格 / JSON null,RDG 实际记录漏源电压；DFO 原 vd 偏置坐标
+vgs_V,number,V,空单元格 / JSON null,RDG 实际记录栅源电压；DFO 原 vg 偏置坐标
+id_A,number,A,空单元格 / JSON null,保留原始带符号 Ids / id_meas，未归一化
+ig_A,number,A,空单元格 / JSON null,原始 Igs
+gm_S,number,S,空单元格 / JSON null,原作者 gm_meas，保留负值；未对 RDG 估算 gm
+capacitance_F,number,F,空单元格 / JSON null,原始 C；物理类型见 capacitance_type
+conductance_S,number,S,空单元格 / JSON null,原始 G，按电导 SI 约定标记；负值保留
+capacitance_type,string,,空单元格 / JSON null,Ciss / Coss / Crss；未转为本征 Cgs/Cgd/Cds
+vds_set_V,number,V,空单元格 / JSON null,由原始扫描参数重建的漏极设定电压，区别于实际值
+vgs_set_V,number,V,空单元格 / JSON null,由原始扫描参数重建的栅极设定电压，区别于实际值
+temperature_K,number,K,空单元格 / JSON null,可核实的实际测量温度；当前全部缺失
+temperature_context_K,number,K,空单元格 / JSON null,DFO MDL TEMP=25 C 转换为 298.15 K，仅为模型上下文
+frequency_Hz,number,Hz,空单元格 / JSON null,C-V 的原始 Measurement.Secondary.Frequency
+ac_amplitude_V,number,V,空单元格 / JSON null,原始 ACLevel；RMS/峰值约定未在 CSV 中明确
+pulse_width_s,number,s,空单元格 / JSON null,仅 VPULSE 模式采用原 Duration，单位秒
+pulse_period_s,number,s,空单元格 / JSON null,仅 VPULSE 模式采用原 Period，单位秒
+pulse_delay_s,number,s,空单元格 / JSON null,原脉冲 Delay，单位秒
+pulse_measurement_delay_s,number,s,空单元格 / JSON null,原脉冲 MeasurementDelay，单位秒
+pulse_vds_base_V,number,V,空单元格 / JSON null,仅当 Vds 通道为 VPULSE 时填写原 Base
+pulse_vgs_base_V,number,V,空单元格 / JSON null,仅当 Vgs 通道为 VPULSE 时填写原 Base；当前缺失
+drain_current_limit_A,number,A,空单元格 / JSON null,按通道功能映射的原电流限值绝对值
+gate_current_limit_A,number,A,空单元格 / JSON null,按通道功能映射的原电流限值绝对值
+near_current_limit,boolean (0/1 in CSV),,空单元格 / JSON null,|Id| >= 0.99 × 漏极限流设置，仅启发式标记
+bias_deviation,boolean (0/1 in CSV),,空单元格 / JSON null,"任一实际电压与设定值之差 > max(0.02 V, 设定值绝对值的 1%)"
+compliance_suspected,boolean (0/1 in CSV),,空单元格 / JSON null,near_current_limit 与 bias_deviation 同时满足；非仪器状态码
+nonpositive_forward_id,boolean (0/1 in CSV),,空单元格 / JSON null,正向 output/transfer 数据 Id <= 0；未删除
+negative_gm,boolean (0/1 in CSV),,空单元格 / JSON null,原始 gm < 0；未删除或平滑
+quality_flags,string,,空单元格 / JSON null,分号分隔；包含缺失条件与需复核信息
+source_id,string,,空单元格 / JSON null,公开数据来源及版本标识
+source_file_id,string,,空单元格 / JSON null,来源文件哈希标识，与 metadata/conditions.json 对应
+source_row,number,,空单元格 / JSON null,原 CSV 物理行号，从 1 开始，可直接追溯
+source_file,string,,空单元格 / JSON null,相对原 GaN_HEMT_Datasets 根目录的路径
+source_sha256,string,,空单元格 / JSON null,原始来源文件 SHA-256
+source_record_label,string,,空单元格 / JSON null,原始记录/设备标签，不据此推断独立样品
+source_iteration,number,,空单元格 / JSON null,RDG TestRecord.IterationIndex
+record_time_local,string,,空单元格 / JSON null,原记录时间 ISO 表达，时区未知

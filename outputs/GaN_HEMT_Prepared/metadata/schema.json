@@ -1,0 +1,309 @@
+{
+  "schema_version": "1.0",
+  "fields": [
+    {
+      "field": "point_id",
+      "type": "string",
+      "unit": "",
+      "missing": "空单元格 / JSON null",
+      "description": "来源文件哈希及原记录位置构成的稳定记录 ID"
+    },
+    {
+      "field": "device_id",
+      "type": "string",
+      "unit": "",
+      "missing": "空单元格 / JSON null",
+      "description": "名义器件组；不等于已确认的物理样品序列号"
+    },
+    {
+      "field": "measurement_type",
+      "type": "string",
+      "unit": "",
+      "missing": "空单元格 / JSON null",
+      "description": "output_iv / transfer_iv / reverse_iv / cv / iv_gm_grid"
+    },
+    {
+      "field": "mode",
+      "type": "string",
+      "unit": "",
+      "missing": "空单元格 / JSON null",
+      "description": "continuous / pulsed / ac / unspecified；DFO CSV 未记录波形模式"
+    },
+    {
+      "field": "curve_id",
+      "type": "string",
+      "unit": "",
+      "missing": "空单元格 / JSON null",
+      "description": "RDG 按 Dimension1/Dimension2 分组；DFO 按原 vg 坐标分组"
+    },
+    {
+      "field": "train_test_split",
+      "type": "string",
+      "unit": "",
+      "missing": "空单元格 / JSON null",
+      "description": "DFO 原作者 train/test；RDG 为 unassigned"
+    },
+    {
+      "field": "vds_V",
+      "type": "number",
+      "unit": "V",
+      "missing": "空单元格 / JSON null",
+      "description": "RDG 实际记录漏源电压；DFO 原 vd 偏置坐标"
+    },
+    {
+      "field": "vgs_V",
+      "type": "number",
+      "unit": "V",
+      "missing": "空单元格 / JSON null",
+      "description": "RDG 实际记录栅源电压；DFO 原 vg 偏置坐标"
+    },
+    {
+      "field": "id_A",
+      "type": "number",
+      "unit": "A",
+      "missing": "空单元格 / JSON null",
+      "description": "保留原始带符号 Ids / id_meas，未归一化"
+    },
+    {
+      "field": "ig_A",
+      "type": "number",
+      "unit": "A",
+      "missing": "空单元格 / JSON null",
+      "description": "原始 Igs"
+    },
+    {
+      "field": "gm_S",
+      "type": "number",
+      "unit": "S",
+      "missing": "空单元格 / JSON null",
+      "description": "原作者 gm_meas，保留负值；未对 RDG 估算 gm"
+    },
+    {
+      "field": "capacitance_F",
+      "type": "number",
+      "unit": "F",
+      "missing": "空单元格 / JSON null",
+      "description": "原始 C；物理类型见 capacitance_type"
+    },
+    {
+      "field": "conductance_S",
+      "type": "number",
+      "unit": "S",
+      "missing": "空单元格 / JSON null",
+      "description": "原始 G，按电导 SI 约定标记；负值保留"
+    },
+    {
+      "field": "capacitance_type",
+      "type": "string",
+      "unit": "",
+      "missing": "空单元格 / JSON null",
+      "description": "Ciss / Coss / Crss；未转为本征 Cgs/Cgd/Cds"
+    },
+    {
+      "field": "vds_set_V",
+      "type": "number",
+      "unit": "V",
+      "missing": "空单元格 / JSON null",
+      "description": "由原始扫描参数重建的漏极设定电压，区别于实际值"
+    },
+    {
+      "field": "vgs_set_V",
+      "type": "number",
+      "unit": "V",
+      "missing": "空单元格 / JSON null",
+      "description": "由原始扫描参数重建的栅极设定电压，区别于实际值"
+    },
+    {
+      "field": "temperature_K",
+      "type": "number",
+      "unit": "K",
+      "missing": "空单元格 / JSON null",
+      "description": "可核实的实际测量温度；当前全部缺失"
+    },
+    {
+      "field": "temperature_context_K",
+      "type": "number",
+      "unit": "K",
+      "missing": "空单元格 / JSON null",
+      "description": "DFO MDL TEMP=25 C 转换为 298.15 K，仅为模型上下文"
+    },
+    {
+      "field": "frequency_Hz",
+      "type": "number",
+      "unit": "Hz",
+      "missing": "空单元格 / JSON null",
+      "description": "C-V 的原始 Measurement.Secondary.Frequency"
+    },
+    {
+      "field": "ac_amplitude_V",
+      "type": "number",
+      "unit": "V",
+      "missing": "空单元格 / JSON null",
+      "description": "原始 ACLevel；RMS/峰值约定未在 CSV 中明确"
+    },
+    {
+      "field": "pulse_width_s",
+      "type": "number",
+      "unit": "s",
+      "missing": "空单元格 / JSON null",
+      "description": "仅 VPULSE 模式采用原 Duration，单位秒"
+    },
+    {
+      "field": "pulse_period_s",
+      "type": "number",
+      "unit": "s",
+      "missing": "空单元格 / JSON null",
+      "description": "仅 VPULSE 模式采用原 Period，单位秒"
+    },
+    {
+      "field": "pulse_delay_s",
+      "type": "number",
+      "unit": "s",
+      "missing": "空单元格 / JSON null",
+      "description": "原脉冲 Delay，单位秒"
+    },
+    {
+      "field": "pulse_measurement_delay_s",
+      "type": "number",
+      "unit": "s",
+      "missing": "空单元格 / JSON null",
+      "description": "原脉冲 MeasurementDelay，单位秒"
+    },
+    {
+      "field": "pulse_vds_base_V",
+      "type": "number",
+      "unit": "V",
+      "missing": "空单元格 / JSON null",
+      "description": "仅当 Vds 通道为 VPULSE 时填写原 Base"
+    },
+    {
+      "field": "pulse_vgs_base_V",
+      "type": "number",
+      "unit": "V",
+      "missing": "空单元格 / JSON null",
+      "description": "仅当 Vgs 通道为 VPULSE 时填写原 Base；当前缺失"
+    },
+    {
+      "field": "drain_current_limit_A",
+      "type": "number",
+      "unit": "A",
+      "missing": "空单元格 / JSON null",
+      "description": "按通道功能映射的原电流限值绝对值"
+    },
+    {
+      "field": "gate_current_limit_A",
+      "type": "number",
+      "unit": "A",
+      "missing": "空单元格 / JSON null",
+      "description": "按通道功能映射的原电流限值绝对值"
+    },
+    {
+      "field": "near_current_limit",
+      "type": "boolean (0/1 in CSV)",
+      "unit": "",
+      "missing": "空单元格 / JSON null",
+      "description": "|Id| >= 0.99 × 漏极限流设置，仅启发式标记"
+    },
+    {
+      "field": "bias_deviation",
+      "type": "boolean (0/1 in CSV)",
+      "unit": "",
+      "missing": "空单元格 / JSON null",
+      "description": "任一实际电压与设定值之差 > max(0.02 V, 设定值绝对值的 1%)"
+    },
+    {
+      "field": "compliance_suspected",
+      "type": "boolean (0/1 in CSV)",
+      "unit": "",
+      "missing": "空单元格 / JSON null",
+      "description": "near_current_limit 与 bias_deviation 同时满足；非仪器状态码"
+    },
+    {
+      "field": "nonpositive_forward_id",
+      "type": "boolean (0/1 in CSV)",
+      "unit": "",
+      "missing": "空单元格 / JSON null",
+      "description": "正向 output/transfer 数据 Id <= 0；未删除"
+    },
+    {
+      "field": "negative_gm",
+      "type": "boolean (0/1 in CSV)",
+      "unit": "",
+      "missing": "空单元格 / JSON null",
+      "description": "原始 gm < 0；未删除或平滑"
+    },
+    {
+      "field": "quality_flags",
+      "type": "string",
+      "unit": "",
+      "missing": "空单元格 / JSON null",
+      "description": "分号分隔；包含缺失条件与需复核信息"
+    },
+    {
+      "field": "source_id",
+      "type": "string",
+      "unit": "",
+      "missing": "空单元格 / JSON null",
+      "description": "公开数据来源及版本标识"
+    },
+    {
+      "field": "source_file_id",
+      "type": "string",
+      "unit": "",
+      "missing": "空单元格 / JSON null",
+      "description": "来源文件哈希标识，与 metadata/conditions.json 对应"
+    },
+    {
+      "field": "source_row",
+      "type": "number",
+      "unit": "",
+      "missing": "空单元格 / JSON null",
+      "description": "原 CSV 物理行号，从 1 开始，可直接追溯"
+    },
+    {
+      "field": "source_file",
+      "type": "string",
+      "unit": "",
+      "missing": "空单元格 / JSON null",
+      "description": "相对原 GaN_HEMT_Datasets 根目录的路径"
+    },
+    {
+      "field": "source_sha256",
+      "type": "string",
+      "unit": "",
+      "missing": "空单元格 / JSON null",
+      "description": "原始来源文件 SHA-256"
+    },
+    {
+      "field": "source_record_label",
+      "type": "string",
+      "unit": "",
+      "missing": "空单元格 / JSON null",
+      "description": "原始记录/设备标签，不据此推断独立样品"
+    },
+    {
+      "field": "source_iteration",
+      "type": "number",
+      "unit": "",
+      "missing": "空单元格 / JSON null",
+      "description": "RDG TestRecord.IterationIndex"
+    },
+    {
+      "field": "record_time_local",
+      "type": "string",
+      "unit": "",
+      "missing": "空单元格 / JSON null",
+      "description": "原记录时间 ISO 表达，时区未知"
+    }
+  ],
+  "null_policy": "CSV empty cell / JSON null; never fill absent conditions with zero.",
+  "sign_policy": "Preserve measured Vds/Ids signs, including reverse conduction.",
+  "transformations": [
+    "Source-column mapping",
+    "Dimension-based grouping",
+    "Reconstructed programmed bias stored separately",
+    "Original DFO split mapping",
+    "Model-only temperature context separated from measurement temperature",
+    "Review flags; no point deletion/smoothing/interpolation/width normalization"
+  ]
+}

@@ -1,0 +1,542 @@
+{
+  "status": "OK",
+  "data": {
+    "id": 665191,
+    "identifier": "IZ6LY2",
+    "persistentUrl": "https://doi.org/10.57745/IZ6LY2",
+    "protocol": "doi",
+    "authority": "10.57745",
+    "publisher": "Recherche Data Gouv",
+    "publicationDate": "2025-11-18",
+    "storageIdentifier": "ec-lyon://10.57745/IZ6LY2",
+    "metadataLanguage": "en",
+    "latestVersion": {
+      "id": 285618,
+      "datasetId": 665191,
+      "datasetPersistentId": "doi:10.57745/IZ6LY2",
+      "storageIdentifier": "ec-lyon://10.57745/IZ6LY2",
+      "versionNumber": 6,
+      "versionMinorNumber": 0,
+      "versionState": "RELEASED",
+      "lastUpdateTime": "2026-04-28T13:41:15Z",
+      "releaseTime": "2026-04-28T13:41:15Z",
+      "createTime": "2026-04-28T13:32:59Z",
+      "publicationDate": "2025-11-18",
+      "citationDate": "2025-11-18",
+      "license": {
+        "name": "etalab 2.0",
+        "uri": "https://spdx.org/licenses/etalab-2.0.html",
+        "iconUri": "https://entrepot.recherche.data.gouv.fr/assets/licence-ouverte.png"
+      },
+      "fileAccessRequest": false,
+      "metadataBlocks": {
+        "citation": {
+          "displayName": "Citation Metadata",
+          "name": "citation",
+          "fields": [
+            {
+              "typeName": "title",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Characterization flowchart and data for Compact Models of GaN-on-Si HEMTs Driven by Wide-Range Current"
+            },
+            {
+              "typeName": "datasetContact",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "datasetContactName": {
+                    "typeName": "datasetContactName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Dahmani, Salim"
+                  },
+                  "datasetContactAffiliation": {
+                    "typeName": "datasetContactAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "INSA Lyon, CNRS, Ecole Centrale de Lyon, Universite Claude Bernard Lyon 1, Ampère, UMR CNRS 5005, 69621 Villeurbanne, France"
+                  },
+                  "datasetContactEmail": {
+                    "typeName": "datasetContactEmail",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "salim.dahmani@insa-lyon.fr"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "author",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Dahmani, Salim"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "INSA Lyon, CNRS, Ecole Centrale de Lyon, Universite Claude Bernard Lyon 1, Ampère, UMR CNRS 5005, 69621 Villeurbanne, France"
+                  },
+                  "authorIdentifierScheme": {
+                    "typeName": "authorIdentifierScheme",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "ORCID"
+                  },
+                  "authorIdentifier": {
+                    "typeName": "authorIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "0009-0006-8955-5740"
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Xuyang Lu"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Power Electronics, Machines and Control Research Institute, University of Nottingham, NG7 2RD Nottingham, U.K."
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "producer",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "producerName": {
+                    "typeName": "producerName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Institut National des Sciences Appliquées de Lyon"
+                  },
+                  "producerAbbreviation": {
+                    "typeName": "producerAbbreviation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "INSA Lyon"
+                  },
+                  "producerURL": {
+                    "typeName": "producerURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://www.insa-lyon.fr/"
+                  },
+                  "producerLogoURL": {
+                    "typeName": "producerLogoURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://www.insa-lyon.fr/sites/all/themes/insa/logo.png"
+                  }
+                },
+                {
+                  "producerName": {
+                    "typeName": "producerName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Centre National de la Recherche Scientifique"
+                  },
+                  "producerAbbreviation": {
+                    "typeName": "producerAbbreviation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "CNRS"
+                  },
+                  "producerURL": {
+                    "typeName": "producerURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://www.cnrs.fr/fr"
+                  },
+                  "producerLogoURL": {
+                    "typeName": "producerLogoURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://www.cnrs.fr/sites/default/files/logo/logo.svg"
+                  }
+                },
+                {
+                  "producerName": {
+                    "typeName": "producerName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "École Centrale de Lyon"
+                  },
+                  "producerAbbreviation": {
+                    "typeName": "producerAbbreviation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Centrale Lyon"
+                  },
+                  "producerURL": {
+                    "typeName": "producerURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://www.ec-lyon.fr/"
+                  },
+                  "producerLogoURL": {
+                    "typeName": "producerLogoURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://www.ec-lyon.fr/sites/default/files/styles/paragraph_image/public/content/paragraphs/images/2024-10/2024_logo-centrale-h_rouge_rvb.jpg.webp?itok=HLJ5ltN7"
+                  }
+                },
+                {
+                  "producerName": {
+                    "typeName": "producerName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Université Claude Bernard Lyon 1"
+                  },
+                  "producerAbbreviation": {
+                    "typeName": "producerAbbreviation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "UCBL"
+                  },
+                  "producerURL": {
+                    "typeName": "producerURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://www.univ-lyon1.fr/"
+                  },
+                  "producerLogoURL": {
+                    "typeName": "producerLogoURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://www.univ-lyon1.fr/uas/WWW-2014/LOGO/LogoUCBL1.png"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "distributor",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "distributorName": {
+                    "typeName": "distributorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Entrepôt Recherche Data Gouv"
+                  },
+                  "distributorURL": {
+                    "typeName": "distributorURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://entrepot.recherche.data.gouv.fr"
+                  },
+                  "distributorLogoURL": {
+                    "typeName": "distributorLogoURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://s3.fr-par.scw.cloud/rdg-portal/logos-macarons/Macarons%20Recherche%20Data%20Gouv_Entrep%C3%B4t.png"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "dsDescription",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "dsDescriptionValue": {
+                    "typeName": "dsDescriptionValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "In order to create compact models for circuit simulations in LTspice, a characterization protocol was established, as shown in the Characterization_flowchart. This procedure was applied to two different transistors, named TLN2 and GS65030.\n\nThis folder is divided into three parts:\n\n01) A flowchart for the procedure of HEMT transistor characterization using a B1505A curve tracer.\n\n02) A dataset containing static (I–V) and dynamic (C–V) measurements for both HEMT transistors TLN2 and GS65030\n\n03) A set of scripts designed to:\n- Process measurement data (Id–Vgs, Id–Vds, Id–Vsd)\n- Fit mathematical models to the different I–V functions\n- Process measurement data (Crss–Vds, Coss–Vds, Ciss–Vds)\n- Fit mathematical models to the different C–V functions\n- Generate a “.lib” file that allows the component to be reused in LTspice\n\nA file named \"README_HEMT_Modeling.txt\" is available for further details on the various functions.\n\nAll datasets and scripts are fully reusable and are provided to support transparency, reproducibility, and further research. They accompany a journal paper that is currently under preparation."
+                  },
+                  "dsDescriptionLanguage": {
+                    "typeName": "dsDescriptionLanguage",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "English"
+                  },
+                  "dsDescriptionDate": {
+                    "typeName": "dsDescriptionDate",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "2025-11-07"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "language",
+              "multiple": true,
+              "typeClass": "controlledVocabulary",
+              "value": [
+                "English"
+              ]
+            },
+            {
+              "typeName": "subject",
+              "multiple": true,
+              "typeClass": "controlledVocabulary",
+              "value": [
+                "Engineering"
+              ]
+            },
+            {
+              "typeName": "keyword",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "GaN HEMT"
+                  },
+                  "keywordTermURL": {
+                    "typeName": "keywordTermURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "http://data.loterre.fr/ark:/67375/RDR-M89D1P44-1"
+                  },
+                  "keywordVocabulary": {
+                    "typeName": "keywordVocabulary",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Loterre"
+                  },
+                  "keywordVocabularyURI": {
+                    "typeName": "keywordVocabularyURI",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://loterre.istex.fr/fr/"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "gallium nitride"
+                  },
+                  "keywordTermURL": {
+                    "typeName": "keywordTermURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "http://data.loterre.fr/ark:/67375/RDR-WPX61TFM-5"
+                  },
+                  "keywordVocabulary": {
+                    "typeName": "keywordVocabulary",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Loterre"
+                  },
+                  "keywordVocabularyURI": {
+                    "typeName": "keywordVocabularyURI",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://loterre.istex.fr/fr/"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Characterization"
+                  },
+                  "keywordTermURL": {
+                    "typeName": "keywordTermURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "http://data.loterre.fr/ark:/67375/QJP-NSBGS088-4"
+                  },
+                  "keywordVocabulary": {
+                    "typeName": "keywordVocabulary",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Loterre"
+                  },
+                  "keywordVocabularyURI": {
+                    "typeName": "keywordVocabularyURI",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://loterre.istex.fr/fr/"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Compact Model"
+                  },
+                  "keywordTermURL": {
+                    "typeName": "keywordTermURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "http://data.loterre.fr/ark:/67375/RDR-RC7ZB74T-Q"
+                  },
+                  "keywordVocabulary": {
+                    "typeName": "keywordVocabulary",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Loterre"
+                  },
+                  "keywordVocabularyURI": {
+                    "typeName": "keywordVocabularyURI",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://loterre.istex.fr/fr/"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "LTspice"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Power electronics"
+                  },
+                  "keywordTermURL": {
+                    "typeName": "keywordTermURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "http://data.loterre.fr/ark:/67375/QJP-HJ43P7F0-9"
+                  },
+                  "keywordVocabulary": {
+                    "typeName": "keywordVocabulary",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Loterre"
+                  },
+                  "keywordVocabularyURI": {
+                    "typeName": "keywordVocabularyURI",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://loterre.istex.fr/fr/"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "kindOfData",
+              "multiple": true,
+              "typeClass": "controlledVocabulary",
+              "value": [
+                "Dataset",
+                "Other"
+              ]
+            },
+            {
+              "typeName": "software",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "softwareName": {
+                    "typeName": "softwareName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Matlab"
+                  },
+                  "softwareVersion": {
+                    "typeName": "softwareVersion",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "2025b"
+                  }
+                },
+                {
+                  "softwareName": {
+                    "typeName": "softwareName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Excel"
+                  },
+                  "softwareVersion": {
+                    "typeName": "softwareVersion",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "16.0.19231.20246"
+                  }
+                },
+                {
+                  "softwareName": {
+                    "typeName": "softwareName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "LTspice"
+                  },
+                  "softwareVersion": {
+                    "typeName": "softwareVersion",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "24.0.9"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "depositor",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Dahmani, Salim"
+            },
+            {
+              "typeName": "dateOfDeposit",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "2025-11-07"
+            }
+          ]
+        }
+      },
+      "files": [
+        {
+          "label": "Full_HEMT_Characterization_and_Modeling_Process-1.zip",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 285618,
+          "dataFile": {
+            "id": 744699,
+            "persistentId": "doi:10.57745/UTIFLZ",
+            "pidURL": "https://doi.org/10.57745/UTIFLZ",
+            "filename": "Full_HEMT_Characterization_and_Modeling_Process-1.zip",
+            "contentType": "application/zip",
+            "filesize": 738480,
+            "storageIdentifier": "ec-lyon://prod-ec-lyon:19dd42c051f-ad9699426376",
+            "rootDataFileId": -1,
+            "md5": "8c90acf6b305ea23ccc363c44d5d4213",
+            "checksum": {
+              "type": "MD5",
+              "value": "8c90acf6b305ea23ccc363c44d5d4213"
+            },
+            "creationDate": "2026-04-28"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,5 @@
+# Preserve measurement and frozen model bytes (their hashes are evidence).
+* -text
+*.png binary
+*.pdf binary
+*.npz binary

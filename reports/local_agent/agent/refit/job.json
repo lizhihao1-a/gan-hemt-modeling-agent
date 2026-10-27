@@ -1,0 +1,62 @@
+{
+  "label": "refit",
+  "signature": "92901821f3d66eb435f1615bad44e111d1f750421c2f42a70188a922d6c1fcc1",
+  "x": [
+    1.16306263825065e-10,
+    0.44197037181509263,
+    0.6276210789878925,
+    0.12832204934682057,
+    0.010318092744353524,
+    0.03147392903553871,
+    0.9999999999997975,
+    0.9999999999999999,
+    0.9999999999999999,
+    0.41158088496157585,
+    0.7626355948094933,
+    0.31834069787573893,
+    0.23008819701398922,
+    0.6552067305529954,
+    3.3461653854132946e-11,
+    0.9999999999999999,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ],
+  "status": "converged",
+  "messages": [
+    "`xtol` termination condition is satisfied."
+  ],
+  "nfev": 19,
+  "real_simulation_attempts": 244,
+  "failed_attempts": 0,
+  "training_cost": 0.001028090067189489,
+  "elapsed_seconds": 11.810418900102377,
+  "active": [
+    "RTH0",
+    "VOFF",
+    "NFACTOR",
+    "U0",
+    "UA",
+    "UB",
+    "VSAT",
+    "LAMBDA",
+    "UTE",
+    "ETA0",
+    "VDSCALE",
+    "CDSCD",
+    "RSC",
+    "RDC",
+    "DELTA",
+    "THESAT"
+  ],
+  "fit_rows": 4824,
+  "safe_gm_targets": 3134,
+  "artifacts": {
+    "prediction.npz": "54885c08b15ea1ea87856d024f4db9a7996a772e1e962583707bdd34bec1bf0f",
+    "trace.jsonl": "a7b2501ac6d0f96f8dfd4f6ffca24c83d6564609352f9c0020fac2466d1af705"
+  }
+}

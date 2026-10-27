@@ -1,0 +1,10 @@
+{
+  "local_jacobian_rank": 22,
+  "diagnostic_bound_count": 10,
+  "local_simulation_attempts": 4926,
+  "local_failed_attempts": 0,
+  "test_id_rmse_A": 0.0009264517910612055,
+  "official_mcp_calls": 0,
+  "domestic_llm_calls": 0,
+  "planner": "deterministic_rules"
+}

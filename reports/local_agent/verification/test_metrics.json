@@ -1,0 +1,66 @@
+{
+  "evaluated_utc": "2026-10-22T15:49:09.717364+00:00",
+  "freeze_sha256": "5f164be6971fb6589af317f7ba90258cc0eeb40270841fcf1fbcbf18d7adca93",
+  "previously_viewed_test": true,
+  "purpose": "Post-freeze regression evaluation; not a new blind test and not model selection.",
+  "metrics": {
+    "train": {
+      "n": 4824,
+      "full_metrics": {
+        "id_A": {
+          "rmse": 0.0009261800736445353,
+          "mae": 0.0005527531623755454,
+          "nrmse_train_range": 0.005907514221800165,
+          "nrmse_own_range": 0.005907514221800165
+        },
+        "gm_S": {
+          "rmse": 0.001437612604383672,
+          "mae": 0.0009575885218906204,
+          "nrmse_train_range": 0.017341106740158294,
+          "nrmse_own_range": 0.017341106740158294
+        }
+      },
+      "safe_gm_count": 3134,
+      "safe_gm_metrics": {
+        "rmse": 0.001442732541525582,
+        "mae": 0.0009672046535334546,
+        "nrmse_train_range": 0.017402865642528815,
+        "nrmse_own_range": 0.017402865642528815
+      }
+    },
+    "test": {
+      "n": 1206,
+      "full_metrics": {
+        "id_A": {
+          "rmse": 0.0009264517910612055,
+          "mae": 0.0005418821431765132,
+          "nrmse_train_range": 0.005909247334559732,
+          "nrmse_own_range": 0.00591075564057565
+        },
+        "gm_S": {
+          "rmse": 0.0014186212887068676,
+          "mae": 0.0009294710939962005,
+          "nrmse_train_range": 0.017112025253752786,
+          "nrmse_own_range": 0.017119600235056903
+        }
+      },
+      "safe_gm_count": 66,
+      "safe_gm_metrics": {
+        "rmse": 0.0014695867477975025,
+        "mae": 0.0009933670435698441,
+        "nrmse_train_range": 0.01772679272550208,
+        "nrmse_own_range": 0.017734745571293876
+      }
+    }
+  },
+  "card_verification": {
+    "passed": true,
+    "exit_code": 0,
+    "points": 6030,
+    "max_difference_id_A": 1.4210854715202004e-14,
+    "max_difference_gm_S": 1.4210854715202004e-13,
+    "max_difference_delta_temperature_K": 7.105427357601002e-14
+  },
+  "official_mcp_calls": 0,
+  "domestic_llm_calls": 0
+}

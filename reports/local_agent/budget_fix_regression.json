@@ -1,0 +1,7 @@
+{
+  "budget_fix_revalidated": true,
+  "same_parameter_values": true,
+  "maximum_prediction_difference": 0.0,
+  "protocol_settings_changed": false,
+  "purpose": "Retry-budget enforcement correction; no changes to optimization settings based on test metrics."
+}

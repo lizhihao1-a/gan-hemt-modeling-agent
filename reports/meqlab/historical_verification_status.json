@@ -1,0 +1,209 @@
+{
+  "date": "2026-10-26",
+  "attachment_checks": [
+    {
+      "name": "asmhemtdemo.zip",
+      "sha256": "01d9fab6f24057c614b3416401f12545a62efaecbde1b03fee3a86f27c130a82",
+      "unchanged_copy": true,
+      "size": 135875
+    },
+    {
+      "name": "MCP_INTEGRATION.md",
+      "sha256": "c4ef26908af93372e2e86b401c814139b02ba12e95ea941474b2b0ca753f9fe2",
+      "unchanged_copy": true,
+      "size": 31139
+    }
+  ],
+  "demo_current_points": 5160,
+  "checks": {
+    "project_open": true,
+    "parameter_readback": true,
+    "model_card_export": true,
+    "finite_gan_current": false,
+    "current_changes_after_parameter_change": false,
+    "project_save": false,
+    "save_reopen_equivalence": false,
+    "optimization_verified": false,
+    "qa_verified": false,
+    "project_save_via_meqlab_prepare": true,
+    "parameter_restored_after_close_reopen_via_workaround": true,
+    "effective_gan_curve_restored": false
+  },
+  "runs": [
+    {
+      "run": "nano_absolute_03",
+      "simulator": "Nano",
+      "feature": "prim|rf_main|pnano",
+      "tool_calls": 13,
+      "tool_successes": 12,
+      "baseline": {
+        "files": [
+          {
+            "name": "W=1.2_L=0.15_T=25.0_0.dat",
+            "current_values": 1720
+          },
+          {
+            "name": "W=1.2_L=0.25_T=25.0_1.dat",
+            "current_values": 1720
+          },
+          {
+            "name": "W=2.4_L=0.15_T=25.0_2.dat",
+            "current_values": 1720
+          }
+        ],
+        "points": 5160,
+        "finite": 0,
+        "nonzero": 0,
+        "max_abs_current": null
+      },
+      "perturbed": {
+        "files": [
+          {
+            "name": "W=1.2_L=0.15_T=25.0_0.dat",
+            "current_values": 1720
+          },
+          {
+            "name": "W=1.2_L=0.25_T=25.0_1.dat",
+            "current_values": 1720
+          },
+          {
+            "name": "W=2.4_L=0.15_T=25.0_2.dat",
+            "current_values": 1720
+          }
+        ],
+        "points": 5160,
+        "finite": 0,
+        "nonzero": 0,
+        "max_abs_current": null
+      }
+    },
+    {
+      "run": "documented_feature_04",
+      "simulator": "Nano",
+      "feature": "prim|rf_main|ppei",
+      "tool_calls": 13,
+      "tool_successes": 12,
+      "baseline": {
+        "files": [
+          {
+            "name": "W=1.2_L=0.15_T=25.0_0.dat",
+            "current_values": 1720
+          },
+          {
+            "name": "W=1.2_L=0.25_T=25.0_1.dat",
+            "current_values": 1720
+          },
+          {
+            "name": "W=2.4_L=0.15_T=25.0_2.dat",
+            "current_values": 1720
+          }
+        ],
+        "points": 5160,
+        "finite": 0,
+        "nonzero": 0,
+        "max_abs_current": null
+      },
+      "perturbed": {
+        "files": [
+          {
+            "name": "W=1.2_L=0.15_T=25.0_0.dat",
+            "current_values": 1720
+          },
+          {
+            "name": "W=1.2_L=0.25_T=25.0_1.dat",
+            "current_values": 1720
+          },
+          {
+            "name": "W=2.4_L=0.15_T=25.0_2.dat",
+            "current_values": 1720
+          }
+        ],
+        "points": 5160,
+        "finite": 0,
+        "nonzero": 0,
+        "max_abs_current": null
+      }
+    },
+    {
+      "run": "internal_mapped_05",
+      "simulator": "Internal",
+      "feature": "prim|rf_main|pnano",
+      "tool_calls": 13,
+      "tool_successes": 4,
+      "baseline": {
+        "files": [],
+        "points": 0,
+        "finite": 0,
+        "nonzero": 0,
+        "max_abs_current": null
+      },
+      "perturbed": {
+        "files": [],
+        "points": 0,
+        "finite": 0,
+        "nonzero": 0,
+        "max_abs_current": null
+      }
+    },
+    {
+      "run": "nano_package_path_06",
+      "simulator": "Nano",
+      "feature": "prim|rf_main|pnano",
+      "tool_calls": 13,
+      "tool_successes": 12,
+      "baseline": {
+        "files": [
+          {
+            "name": "W=1.2_L=0.15_T=25.0_0.dat",
+            "current_values": 1720
+          },
+          {
+            "name": "W=1.2_L=0.25_T=25.0_1.dat",
+            "current_values": 1720
+          },
+          {
+            "name": "W=2.4_L=0.15_T=25.0_2.dat",
+            "current_values": 1720
+          }
+        ],
+        "points": 5160,
+        "finite": 0,
+        "nonzero": 0,
+        "max_abs_current": null
+      },
+      "perturbed": {
+        "files": [
+          {
+            "name": "W=1.2_L=0.15_T=25.0_0.dat",
+            "current_values": 1720
+          },
+          {
+            "name": "W=1.2_L=0.25_T=25.0_1.dat",
+            "current_values": 1720
+          },
+          {
+            "name": "W=2.4_L=0.15_T=25.0_2.dat",
+            "current_values": 1720
+          }
+        ],
+        "points": 5160,
+        "finite": 0,
+        "nonzero": 0,
+        "max_abs_current": null
+      }
+    }
+  ],
+  "source_originals_untouched": true,
+  "contest_run": false,
+  "domestic_llm_connected": false,
+  "next": "Continue local isolation of Nano license selection, worker execution and result transfer; use verified Prepare-based saving workaround.",
+  "latest_update": "2026-10-27",
+  "current_findings": {
+    "save_current_project_original_interface": "still fails; workaround via Project.save(true) through Prepare verified twice",
+    "nano_minimal_mos_control": "0/33 finite",
+    "internal_minimal_mos_control": "33/33 finite; 20 nonzero; max abs 0.0659427 A",
+    "nano_licensed_workers": "4/4; synchronization did not change NaN",
+    "licensing_log": "PARALLEL_SPICE checkout succeeded; SPICE checkout failed when adding Nano MOS source; sole causal role unproven",
+    "report": "LOCAL_FINDINGS_20261027.md"
+  }
+}

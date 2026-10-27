@@ -1,0 +1,8 @@
+{
+  "action": "accept_core_16",
+  "reasons": [
+    "predeclared validation and local QA thresholds satisfied"
+  ],
+  "planner": "deterministic_rules",
+  "external_llm_calls": 0
+}

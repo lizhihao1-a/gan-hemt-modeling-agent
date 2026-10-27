@@ -1,0 +1,20 @@
+{
+  "checked_date": "2026-10-27",
+  "meqlab_version": "1.26.2",
+  "distribution": "261022 Windows",
+  "pmms": {"tools": 49, "resources": 6, "prompts": 6},
+  "official_gan": {"current_values": 5160, "finite": 0, "valid": false},
+  "mos_control": {
+    "nano": {"current_values": 33, "finite": 0},
+    "internal": {"current_values": 33, "finite": 33, "nonzero": 20, "max_abs_current_A": 0.0659427}
+  },
+  "native_trace": {"pei_newSim_handle": 1, "pei_get_status": 127, "meaning": "worker start/restart prosim failed"},
+  "parallel_license_checkout": true,
+  "single_license_failure_is_proven_root_cause": false,
+  "model_card_export": true,
+  "save_current_project_api_fixed": false,
+  "save_true_template_workaround": {"verified_runs": ["control_and_save_09", "nano_workers_10"], "voff_after_reopen": -1.9, "valid_gan_curve_restored": false},
+  "domestic_llm_connected": false,
+  "official_optimization_verified": false,
+  "note": "Sanitized evidence summary; these are observations from the original machine, not a new simulation run."
+}

@@ -1,0 +1,62 @@
+{
+  "label": "core",
+  "signature": "cf94ae8b7a2638a513246e0344d6343a730d1a980d8f275f64d6188efa6d9a65",
+  "x": [
+    1.16306263825065e-10,
+    0.5570960973758858,
+    0.999989954734149,
+    0.21720323130658495,
+    0.013739635861944073,
+    0.0015149516446789327,
+    0.9999999999131586,
+    0.9999999999999999,
+    0.9999999999999999,
+    0.3924986700423745,
+    0.8782026624312899,
+    0.2932947044917706,
+    0.27410407572141604,
+    0.632447709947283,
+    3.8543115130971925e-12,
+    0.9999999885602083,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ],
+  "status": "converged",
+  "messages": [
+    "`ftol` termination condition is satisfied."
+  ],
+  "nfev": 36,
+  "real_simulation_attempts": 565,
+  "failed_attempts": 0,
+  "training_cost": 0.000940661378120385,
+  "elapsed_seconds": 24.8288021000335,
+  "active": [
+    "RTH0",
+    "VOFF",
+    "NFACTOR",
+    "U0",
+    "UA",
+    "UB",
+    "VSAT",
+    "LAMBDA",
+    "UTE",
+    "ETA0",
+    "VDSCALE",
+    "CDSCD",
+    "RSC",
+    "RDC",
+    "DELTA",
+    "THESAT"
+  ],
+  "fit_rows": 3852,
+  "safe_gm_targets": 2092,
+  "artifacts": {
+    "prediction.npz": "a0bfad65f1153e14bdadc2484411bc83478edc2b85b59a1551cab7d68434ba7a",
+    "trace.jsonl": "17c880f427468b77564d3d111314640825690a0379f3b2395c181cca8b772504"
+  }
+}

@@ -1,0 +1,43 @@
+# Credentials and per-machine configuration
+.env
+.env.*
+!.env.example
+*.local.json
+license*.txt
+*.lic
+软件与License.txt
+credentials*
+secrets/
+# Downloaded software and build products
+.venv/
+.deps/
+.cache/
+__pycache__/
+*.pyc
+*.exe
+*.dll
+*.so
+*.osdi
+*.jar
+*.class
+*.zip
+*.7z
+*.tar.gz
+outputs/**/runtime/
+outputs/**/models/asmhemt.va
+outputs/**/models/asmhemt.lib
+outputs/GaN_HEMT_Datasets/
+outputs/**/results/
+outputs/**/runs/
+outputs/**/sessions/
+outputs/**/trace_agent/classes/
+work/dfo_deps/
+work/plot_dependencies/
+work/mpl_config/
+# Raw logs and locks stay local
+*.log
+*.lock
+*.lock.holder
+*.db
+.DS_Store
+Thumbs.db

@@ -1,0 +1,63 @@
+{
+  "frozen_utc": "2026-10-22T15:49:09.564766+00:00",
+  "parameters_sha256": "045ccdf43a87900100257aa8c8eecedccdba150ee00fa54d359aa074785d6bf7",
+  "model_card_sha256": "1c6c127c7ea27a7ef47522cc8b831a9e138d3ec5cd8fbc4712a6f69a45817d93",
+  "prediction_sha256": "54885c08b15ea1ea87856d024f4db9a7996a772e1e962583707bdd34bec1bf0f",
+  "source_model_sha256": "e2218182356dbbc1be6db4dd95585fdf10ece0c9fb1e14220ab60f7e7b60b06e",
+  "train_sha256": "b2c34861960505e0c3f94a36e96ad7638c8b7599f3ba93092259a2ee909ee8e9",
+  "protocol_sha256": "03a4cc5daf8ef73eec5999feb496087c0798092df6f2bd8cffa2d0df959f1423",
+  "selected_validation_job": "core",
+  "validation_cost": 0.0009103525916790143,
+  "x": [
+    1.16306263825065e-10,
+    0.44197037181509263,
+    0.6276210789878925,
+    0.12832204934682057,
+    0.010318092744353524,
+    0.03147392903553871,
+    0.9999999999997975,
+    0.9999999999999999,
+    0.9999999999999999,
+    0.41158088496157585,
+    0.7626355948094933,
+    0.31834069787573893,
+    0.23008819701398922,
+    0.6552067305529954,
+    3.3461653854132946e-11,
+    0.9999999999999999,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ],
+  "qa": {
+    "passed": true,
+    "checks": {
+      "finite": true,
+      "bounds": true,
+      "id_tolerance": true,
+      "gm_tolerance": true,
+      "temperature_limit": true
+    },
+    "min_id_A": 7.974744291549766e-11,
+    "min_gm_S": -6.063626258878685e-06,
+    "max_context_temperature_K": 382.49676636705414,
+    "near_bound": [
+      "RTH0",
+      "VSAT",
+      "LAMBDA",
+      "UTE",
+      "DELTA",
+      "THESAT"
+    ],
+    "scope": "Local DC tolerance checks only; not official QA_pass_rate."
+  },
+  "qa_fallback": false,
+  "planner": "deterministic_rules",
+  "test_targets_used": false,
+  "official_mcp_calls": 0,
+  "domestic_llm_calls": 0
+}

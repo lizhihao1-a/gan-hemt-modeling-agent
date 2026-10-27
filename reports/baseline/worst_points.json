@@ -1,0 +1,14 @@
+{
+  "id_A": {
+    "grid_index": 4437,
+    "vgs_V": -0.8,
+    "vds_V": 1.5,
+    "absolute_error": 0.0041293689541689604
+  },
+  "gm_S": {
+    "grid_index": 2824,
+    "vgs_V": -1.6,
+    "vds_V": 1.0,
+    "absolute_error": 0.006811594255138678
+  }
+}

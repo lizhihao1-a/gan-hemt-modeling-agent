@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "checks": {
+    "native_worker_crash_recovers": true,
+    "native_worker_timeout_recovers": true,
+    "out_of_bounds_rejected_before_native_call": true,
+    "two_injected_failures_observed": true,
+    "failed_retry_respects_real_attempt_limit": true,
+    "unconfigured_mcp_raises": true,
+    "unconfigured_llm_raises": true,
+    "training_gm_has_no_original_test_stencil": true,
+    "curve_groups_and_gm_stencils_isolated": true,
+    "tampered_artifact_rejected": true,
+    "concurrent_run_lock_rejected": true,
+    "real_call_budget_stops_and_exports_finite_checkpoint": true
+  },
+  "fault_probe_native_attempts": 5,
+  "retry_budget_probe_native_attempts": 1,
+  "seconds": 5.18434499995783,
+  "notes": "Crash and timeout are deliberately injected into actual native worker processes; not optimizer failures or official tool calls."
+}

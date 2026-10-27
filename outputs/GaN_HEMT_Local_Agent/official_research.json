@@ -1,0 +1,21 @@
+{
+  "checked_date_local": "2026-10-22",
+  "queries": [
+    "概伦电子 MeQLab Primarius Modeling MCP 建模 Agent 挑战赛",
+    "GaN HEMT 紧凑模型 建模 Agent 挑战赛 官方 MCP 接口",
+    "site:primarius-tech.com \"MCP\" \"建模\""
+  ],
+  "verified_official_endpoint": null,
+  "verified_official_schema": null,
+  "related_sources": [
+    {
+      "url": "https://www.primarius-tech.com/uploads/20240701/B3_CN_MeQLab_Jun.2024.pdf",
+      "scope": "MeQLab product brochure, not an MCP schema"
+    },
+    {
+      "url": "https://cpipc.acge.org.cn/cw/contestNews/detail/10/2c9080179cfe6fa1019d22a1db5628a9?page=0",
+      "scope": "A different HEMT modeling competition notice; do not replace the user-provided Agent challenge rules with it"
+    }
+  ],
+  "finding": "This limited public search did not verify an endpoint, authentication contract or tool schema for this Agent challenge. Continue using the supplied challenge PDF and obtain the matching official Q&A/configuration."
+}

@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "checked_utc": "2026-10-22T15:51:08.518116+00:00",
+  "checks": {
+    "workflow_complete": true,
+    "all_input_and_completed_artifact_hashes_pass": true,
+    "resume_did_not_repeat_completed_stages": true,
+    "test_targets_only_opened_after_freeze": true,
+    "three_curve_folds_use_training_domain_only": true,
+    "all_4824_training_rows_validated_once": true,
+    "independent_model_card_pass": true,
+    "local_final_model_qa_pass": true,
+    "no_fabricated_official_or_llm_calls": true,
+    "previous_frozen_baseline_unchanged": true,
+    "each_real_simulation_attempt_has_result": true,
+    "pipeline_has_no_injected_faults": true,
+    "backend_failure_recovery_tests_pass": true
+  },
+  "external_baseline_available": true,
+  "real_pipeline_simulation_attempts": 4926,
+  "pipeline_failed_simulation_attempts": 0,
+  "backend_fault_tests": {
+    "passed": true,
+    "checks": {
+      "native_worker_crash_recovers": true,
+      "native_worker_timeout_recovers": true,
+      "out_of_bounds_rejected_before_native_call": true,
+      "two_injected_failures_observed": true,
+      "failed_retry_respects_real_attempt_limit": true,
+      "unconfigured_mcp_raises": true,
+      "unconfigured_llm_raises": true,
+      "training_gm_has_no_original_test_stencil": true,
+      "curve_groups_and_gm_stencils_isolated": true,
+      "tampered_artifact_rejected": true,
+      "concurrent_run_lock_rejected": true,
+      "real_call_budget_stops_and_exports_finite_checkpoint": true
+    },
+    "fault_probe_native_attempts": 5,
+    "retry_budget_probe_native_attempts": 1,
+    "seconds": 5.18434499995783,
+    "notes": "Crash and timeout are deliberately injected into actual native worker processes; not optimizer failures or official tool calls."
+  },
+  "stage_start_counts": {
+    "diagnose": 1,
+    "curve_validate": 1,
+    "fit": 1,
+    "verify": 1,
+    "report": 1
+  },
+  "scope": "Local workflow/software acceptance; curve generalization and parameter identifiability are separate diagnostics.",
+  "official_mcp_calls": 0,
+  "domestic_llm_calls": 0
+}

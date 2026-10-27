@@ -1,0 +1,12 @@
+{
+  "model_card_cli_pass": true,
+  "points_compared": 6030,
+  "max_id_difference_A": 1.4210854715202004e-14,
+  "max_gm_difference_S": 1.4210854715202004e-13,
+  "max_delta_temperature_difference_K": 8.526512829121202e-14,
+  "train_test_disjoint": true,
+  "training_stencils_exclude_test_targets": true,
+  "source_gm_full_grid_gradient_max_difference_S": 3.3306690738754696e-16,
+  "safe_train_gm_count": 3134,
+  "safe_test_gm_count": 66
+}

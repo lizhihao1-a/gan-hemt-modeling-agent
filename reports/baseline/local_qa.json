@@ -1,0 +1,26 @@
+{
+  "scope": "Local DC sanity checks, not official competition QA.",
+  "finite_predictions": true,
+  "finite_temperature": true,
+  "id_min_A": 8.387276679434565e-11,
+  "id_max_A": 0.15498185056429747,
+  "gm_min_S": -5.989057427768785e-06,
+  "delta_temperature_min_K": 7.681793134486261e-33,
+  "delta_temperature_max_K": 79.53360170869006,
+  "near_bound_parameters": [
+    "RTH0",
+    "UB",
+    "VSAT",
+    "LAMBDA",
+    "UTE",
+    "DELTA",
+    "THESAT",
+    "VSATACCS",
+    "U0ACCD",
+    "MEXPACCS"
+  ],
+  "bounds_pass": true,
+  "nonnegative_id_with_1uA_tolerance": true,
+  "nonnegative_gm_with_1mS_tolerance": true,
+  "temperature_below_600K_at_context_298K": true
+}

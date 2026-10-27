@@ -1,0 +1,24 @@
+{
+  "local_workflow_complete": true,
+  "acceptance_passed": true,
+  "stages": [
+    "diagnose",
+    "curve_validate",
+    "fit",
+    "verify",
+    "report"
+  ],
+  "local_simulation_attempts": 4926,
+  "pipeline_failed_attempts": 0,
+  "official_mcp_calls": 0,
+  "domestic_llm_calls": 0,
+  "planner": "deterministic_rules",
+  "baseline_snapshot": {
+    "models/fitted_parameters.json": "cb23b14fe776fe6775b153ceafc92628e5422e7d32de20c4cc647437f980f83b",
+    "models/fitted_model.lib": "af72250e39f323adb2c94588dd15d184ac52e5a0e2edaf6d79ce09013dd8f974",
+    "results/freeze.json": "968506da483a0aee65b1265e2ffdacd9af527529ccc1c75b035beabb10a1afe1",
+    "results/frozen_predictions.npz": "612e227248340a3fe290d8dcc62602b98989ef12322ca9300f7df2b76b6463f8",
+    "data/train.csv": "b2c34861960505e0c3f94a36e96ad7638c8b7599f3ba93092259a2ee909ee8e9",
+    "data/test.csv": "043b99d2f919ccfe1350f66e50822083dd86f961175a3a41a9e1f33430136536"
+  }
+}

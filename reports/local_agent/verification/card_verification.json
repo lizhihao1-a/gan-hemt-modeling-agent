@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "exit_code": 0,
+  "points": 6030,
+  "max_difference_id_A": 1.4210854715202004e-14,
+  "max_difference_gm_S": 1.4210854715202004e-13,
+  "max_difference_delta_temperature_K": 7.105427357601002e-14
+}

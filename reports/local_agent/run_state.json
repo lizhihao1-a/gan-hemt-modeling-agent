@@ -1,0 +1,101 @@
+{
+  "created_utc": "2026-10-22T15:45:36.311608+00:00",
+  "inputs": {
+    "protocol.json": "03a4cc5daf8ef73eec5999feb496087c0798092df6f2bd8cffa2d0df959f1423",
+    "agent.py": "ff5dc922df817d70dc565a8163a33620564475d354dee582d3f63f05be347738",
+    "src/analysis.py": "5222824d48d221013b5b5c8feee95dd8d64f484d8692a3ed3619660926069975",
+    "src/backend.py": "b2d841ee80a8235cd06a42214ea2e5c435bba13e3311049213c8f4b1377e9e7d",
+    "src/common.py": "0cc95c75c77800f9581cdf21506e8d4b52d33386ac6ce9b2951dee06b2b191f5",
+    "src/config.py": "02607d88d3f74487d1fb5b68440da0b66ce97b185007fba6c7e52ccdc7d1e079",
+    "src/reporting.py": "5a61505395af1d7ab4478209deafa1e9551898407cc7b65f061477a54438eda0",
+    "src/spice.py": "378f1f4fb80c84da13872b6cefa8c5f79d3fe64b32882b4e5b89c024fed747fa",
+    "src/workflow.py": "0b018849160a21426e4db5419d8c498974b31e66270aa30badfe75dac3993f4f",
+    "data/train.csv": "b2c34861960505e0c3f94a36e96ad7638c8b7599f3ba93092259a2ee909ee8e9",
+    "data/test.csv": "043b99d2f919ccfe1350f66e50822083dd86f961175a3a41a9e1f33430136536",
+    "models/asmhemt.va": "189002cdd52996994cb4dcf7171050374237832f61dbfa1a3a43cc4439c94edc",
+    "models/asmhemt.osdi": "e2218182356dbbc1be6db4dd95585fdf10ece0c9fb1e14220ab60f7e7b60b06e",
+    "reference/fitted_parameters.json": "cb23b14fe776fe6775b153ceafc92628e5422e7d32de20c4cc647437f980f83b",
+    "reference/freeze.json": "968506da483a0aee65b1265e2ffdacd9af527529ccc1c75b035beabb10a1afe1"
+  },
+  "completed": {
+    "diagnose": {
+      "completed_utc": "2026-10-22T15:45:42.554978+00:00",
+      "seconds": 6.240575299947523,
+      "artifacts": {
+        "results/diagnostics/diagnostics.json": "ea0958098304395fa1c54e1e37f80f88c415f71babaa310a98bdcb31118f91e2",
+        "results/diagnostics/jacobian.npz": "64e9c66f5eae1e23975c504c840a930b7846b1bdf01f9c39464ff9c9e743d300",
+        "results/diagnostics/parameter_sensitivity.csv": "01a3180fff53705936ae07e59c61658b7c4135b9f3979e3e0d01dfbd2a47fd5d"
+      }
+    },
+    "curve_validate": {
+      "completed_utc": "2026-10-22T15:48:31.836264+00:00",
+      "seconds": 169.26538280001841,
+      "artifacts": {
+        "results/curve_validation/curve_cv.json": "8b6574d17c818ada17f55685dd9a26a7f891190632e7e6866cebb22dd62b5e48",
+        "results/curve_validation/curve_oof_predictions.csv": "d07e848d6292381002a16961123bfd2461414408baffb39e6de1dd5558d39d8d",
+        "results/curve_validation/fold_0/job.json": "0888b7ccd87b59a6fdb715f8009bcd8c81bef4859036049dfbfcefc15c187bdf",
+        "results/curve_validation/fold_0/prediction.npz": "2c06b7a2b08afbf0988f7cf161e80ac813abd4bdf660832ee21f0f9023e90563",
+        "results/curve_validation/fold_0/trace.jsonl": "b3f66e9d72b9164adb5f14487a677e3404c16ff3cf837561956bea1be3b63c3a",
+        "results/curve_validation/fold_1/job.json": "e4d5b34b38fa5997a70318ffbb88d4047e2f6aa556fe39015895d3d5b768d29b",
+        "results/curve_validation/fold_1/prediction.npz": "08c1f5df621676aa5c04dcf80b4a535635040a1291b746ea8f9aab2089513fb6",
+        "results/curve_validation/fold_1/trace.jsonl": "4c896eaf5808898cc969ec53f9bf3f6257a1de658bbf01968855787d8f101bf9",
+        "results/curve_validation/fold_2/job.json": "8b03b87e0b9e062382c014a4c789f8609295c1007ab260e9c35a194f396ca3e5",
+        "results/curve_validation/fold_2/prediction.npz": "7ccdef9284a2bb309f23cf7c04ddf238254418d333dfc0527bf28337de25fbe5",
+        "results/curve_validation/fold_2/trace.jsonl": "8440c7512d711b7167c8972b426ed4bfc4d48fc06c9f131258dee7cf11c14dd6"
+      }
+    },
+    "fit": {
+      "completed_utc": "2026-10-22T15:49:09.575768+00:00",
+      "seconds": 36.7889840999851,
+      "artifacts": {
+        "results/agent/candidates.json": "0cbe24ef9355b4c40c31654a12979773732ac2b929df5a45c3457026c8a93425",
+        "results/agent/decision.json": "5486dd712aa851d9e6a4a26993c7953785ce3deb37cc2b683ba4a906a834bbcb",
+        "results/agent/freeze.json": "5f164be6971fb6589af317f7ba90258cc0eeb40270841fcf1fbcbf18d7adca93",
+        "results/agent/frozen_prediction.npz": "54885c08b15ea1ea87856d024f4db9a7996a772e1e962583707bdd34bec1bf0f",
+        "results/agent/plan.json": "f95bb7f4518d402ee5775b9d9f4b5a0db19062aa4cdf212e094d7ff251b68180",
+        "results/agent/core/job.json": "3ec32f5d145e3b29c3bcccaaada5a61a8884971b03a85ee119e6460f8132f261",
+        "results/agent/core/prediction.npz": "a0bfad65f1153e14bdadc2484411bc83478edc2b85b59a1551cab7d68434ba7a",
+        "results/agent/core/trace.jsonl": "17c880f427468b77564d3d111314640825690a0379f3b2395c181cca8b772504",
+        "results/agent/refit/job.json": "a9caaca46bc5b2f159bd218b0db570797c7f3e5acccfc475a723654299585e07",
+        "results/agent/refit/prediction.npz": "54885c08b15ea1ea87856d024f4db9a7996a772e1e962583707bdd34bec1bf0f",
+        "results/agent/refit/trace.jsonl": "a7b2501ac6d0f96f8dfd4f6ffca24c83d6564609352f9c0020fac2466d1af705",
+        "models/fitted_parameters.json": "045ccdf43a87900100257aa8c8eecedccdba150ee00fa54d359aa074785d6bf7",
+        "models/fitted_model.lib": "1c6c127c7ea27a7ef47522cc8b831a9e138d3ec5cd8fbc4712a6f69a45817d93"
+      }
+    },
+    "verify": {
+      "completed_utc": "2026-10-22T15:49:09.721313+00:00",
+      "seconds": 0.12419550004415214,
+      "artifacts": {
+        "results/verification/card_verification.json": "eb5ef551e8d3173b43c92c1d137cf8825acb1baae70c2e18dae645f5281a5ae1",
+        "results/verification/cli_prediction.txt": "1f86ad91240916c6c286917014e9a2463b962e182827f9430e49fb8ec325a01a",
+        "results/verification/ngspice_console.log": "e5392da68bec07474b1c88acb2d31bf53c9460b011e6f0a9fdd32e1ec24a3664",
+        "results/verification/run.cir": "0af7c3ad585ef366408c7170ab8466eac66cb77978e5557940892802bc4fa5e6",
+        "results/verification/spinit": "c4a5aa27e78a377866c5f301f12ef6fa7c338b305e3af7297fbf47e971820ee4",
+        "results/verification/test_metrics.json": "877e2457e4073736a4b1b4272ac3f898bf01e526ead8327ee6e7378f3382b435",
+        "results/verification/test_predictions.csv": "b789d342b5a7c9c43cd66e4e75c038e069b85ad7461f858631314fa039378f12",
+        "results/verification/train_predictions.csv": "16663df14b0e6569db3730a8fb25fdc68a01830efab9514b9a74a9b3b54fe6df"
+      }
+    },
+    "report": {
+      "completed_utc": "2026-10-22T15:49:10.870111+00:00",
+      "seconds": 1.1283441999694332,
+      "artifacts": {
+        "results/report/agent_curves.png": "cac65344845f2c21460a4ba4fd086a0d6adff1dbe93ed3ad2d87f11be0979953",
+        "results/report/bounds_curve_validation.png": "312aacfc3d31248acfb16a573728fb94fdfe4ecd38a03fc089c28d1ca8f563b3",
+        "results/report/coupling_spectrum.png": "6271f0adf06cebc9a58d5c335382926468fbb12896892788ae3c1f68f3318ddf",
+        "results/report/overview.html": "c8408a6c141cdb73d1244accda8e939aa834a3fc13cbb05b620f80e11ec9e7b3",
+        "results/report/report_summary.json": "fc3ccbfa3962ea223d9b9e7290faf36ff843364dbe78ed33e80f09c705e2fa4d",
+        "results/report/sensitivity.png": "70aaa1abc9aa5493ad7fff9976127c91d09ccdca8843470a397f7750e588f94f",
+        "results/report/validation_report.md": "f97a395e0dd9f22609d029e6b96e9dfccc3d2b4b0bc228664790a9a09e110d7a"
+      }
+    }
+  },
+  "status": "complete",
+  "transport": "local_process",
+  "planner": "deterministic_rules",
+  "official_mcp_calls": 0,
+  "domestic_llm_calls": 0,
+  "active_stage": null,
+  "completed_utc": "2026-10-22T15:51:07.487285+00:00"
+}

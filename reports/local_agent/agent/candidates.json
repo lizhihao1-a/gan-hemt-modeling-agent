@@ -1,0 +1,115 @@
+[
+  {
+    "job": "core",
+    "x": [
+      1.16306263825065e-10,
+      0.5570960973758858,
+      0.999989954734149,
+      0.21720323130658495,
+      0.013739635861944073,
+      0.0015149516446789327,
+      0.9999999999131586,
+      0.9999999999999999,
+      0.9999999999999999,
+      0.3924986700423745,
+      0.8782026624312899,
+      0.2932947044917706,
+      0.27410407572141604,
+      0.632447709947283,
+      3.8543115130971925e-12,
+      0.9999999885602083,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "active": [
+      "RTH0",
+      "VOFF",
+      "NFACTOR",
+      "U0",
+      "UA",
+      "UB",
+      "VSAT",
+      "LAMBDA",
+      "UTE",
+      "ETA0",
+      "VDSCALE",
+      "CDSCD",
+      "RSC",
+      "RDC",
+      "DELTA",
+      "THESAT"
+    ],
+    "qa": {
+      "passed": true,
+      "checks": {
+        "finite": true,
+        "bounds": true,
+        "id_tolerance": true,
+        "gm_tolerance": true,
+        "temperature_limit": true
+      },
+      "min_id_A": 8.616146026116318e-11,
+      "min_gm_S": -5.530345745796694e-06,
+      "max_context_temperature_K": 382.5471621195883,
+      "near_bound": [
+        "RTH0",
+        "NFACTOR",
+        "UB",
+        "VSAT",
+        "LAMBDA",
+        "UTE",
+        "DELTA",
+        "THESAT"
+      ],
+      "scope": "Local DC tolerance checks only; not official QA_pass_rate."
+    },
+    "validation_cost": 0.0009103525916790143,
+    "validation_metrics": {
+      "id_A": {
+        "rmse": 0.000682653536652094,
+        "mae": 0.0004930669562456695,
+        "nrmse_train_range": 0.004354213172029648,
+        "nrmse_own_range": 0.006890494753781863
+      },
+      "gm_S": {
+        "rmse": 0.002399619719116115,
+        "mae": 0.002048488589117509,
+        "nrmse_train_range": 0.028945253789577748,
+        "nrmse_own_range": 0.030112727531323966
+      }
+    },
+    "safe_validation_metrics": {
+      "id_A": {
+        "rmse": 0.0006501258878805387,
+        "mae": 0.0004671839345029096,
+        "nrmse_train_range": 0.004146739967641283,
+        "nrmse_own_range": 0.007041493391439144
+      },
+      "gm_S": {
+        "rmse": 0.0025983951842236262,
+        "mae": 0.002261436376277136,
+        "nrmse_train_range": 0.031342969660489814,
+        "nrmse_own_range": 0.03327690504005201
+      }
+    },
+    "decision_metrics": {
+      "id_A": {
+        "rmse": 0.000682653536652094,
+        "mae": 0.0004930669562456695,
+        "nrmse_train_range": 0.004354213172029648,
+        "nrmse_own_range": 0.006890494753781863
+      },
+      "gm_S": {
+        "rmse": 0.0025983951842236262,
+        "mae": 0.002261436376277136,
+        "nrmse_train_range": 0.031342969660489814,
+        "nrmse_own_range": 0.03327690504005201
+      }
+    }
+  }
+]

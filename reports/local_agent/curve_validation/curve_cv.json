@@ -1,0 +1,215 @@
+{
+  "scope": "Three contiguous Vgs curve groups; only the 4824 author-training rows. Reuses known data, not a new blind test.",
+  "all_validation_groups_disjoint_from_corresponding_fit": true,
+  "test_targets_used": false,
+  "folds": [
+    {
+      "fold": 0,
+      "held_out_curve_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fit_curve_indices": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "fit_points": 3244,
+      "validation_points": 1580,
+      "safe_fit_gm": 2028,
+      "safe_validation_gm": 885,
+      "status": "evaluation_budget",
+      "id_and_full_gm_metrics": {
+        "id_A": {
+          "rmse": 0.0003388256273750087,
+          "mae": 0.00018355385252166186,
+          "nrmse_train_range": 0.0021612476959257886,
+          "nrmse_own_range": 0.021184547271976058
+        },
+        "gm_S": {
+          "rmse": 0.0014849220064019274,
+          "mae": 0.000907782348742254,
+          "nrmse_train_range": 0.017911773265834274,
+          "nrmse_own_range": 0.021948321778675582
+        }
+      },
+      "safe_gm_metrics": {
+        "rmse": 0.0014986457257768302,
+        "mae": 0.0008768608690314063,
+        "nrmse_train_range": 0.01807731472104028,
+        "nrmse_own_range": 0.027298542878203592
+      },
+      "validation_cost": 0.018383158119753024,
+      "initialization": "Published parameter-range midpoint; no frozen fitted parameters."
+    },
+    {
+      "fold": 1,
+      "held_out_curve_indices": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "fit_curve_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "fit_points": 3206,
+      "validation_points": 1618,
+      "safe_fit_gm": 1850,
+      "safe_validation_gm": 854,
+      "status": "evaluation_budget",
+      "id_and_full_gm_metrics": {
+        "id_A": {
+          "rmse": 0.000961377624165091,
+          "mae": 0.0008748473097701092,
+          "nrmse_train_range": 0.006132017033067205,
+          "nrmse_own_range": 0.010413179540498597
+        },
+        "gm_S": {
+          "rmse": 0.0020805579220650313,
+          "mae": 0.0016071680598014652,
+          "nrmse_train_range": 0.027947442513691505,
+          "nrmse_own_range": 0.02509659201345093
+        }
+      },
+      "safe_gm_metrics": {
+        "rmse": 0.001979334116904004,
+        "mae": 0.001474968134860881,
+        "nrmse_train_range": 0.026587736808912524,
+        "nrmse_own_range": 0.023875586573884056
+      },
+      "validation_cost": 0.0007583684685694371,
+      "initialization": "Published parameter-range midpoint; no frozen fitted parameters."
+    },
+    {
+      "fold": 2,
+      "held_out_curve_indices": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "fit_curve_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "fit_points": 3198,
+      "validation_points": 1626,
+      "safe_fit_gm": 1960,
+      "safe_validation_gm": 965,
+      "status": "converged",
+      "id_and_full_gm_metrics": {
+        "id_A": {
+          "rmse": 0.003162941247508215,
+          "mae": 0.002514236901425532,
+          "nrmse_train_range": 0.034256918472731504,
+          "nrmse_own_range": 0.020177137554868354
+        },
+        "gm_S": {
+          "rmse": 0.004945446363103996,
+          "mae": 0.004465533767463215,
+          "nrmse_train_range": 0.0596541189182746,
+          "nrmse_own_range": 0.06480583085965123
+        }
+      },
+      "safe_gm_metrics": {
+        "rmse": 0.005232308676963807,
+        "mae": 0.004796478574471491,
+        "nrmse_train_range": 0.06311437656293015,
+        "nrmse_own_range": 0.07028728740208035
+      },
+      "validation_cost": 0.005030192613551205,
+      "initialization": "Published parameter-range midpoint; no frozen fitted parameters."
+    }
+  ],
+  "all_training_rows_validated_once": true,
+  "overall_oof_metrics": {
+    "id_A": {
+      "rmse": 0.0019286422781584981,
+      "mae": 0.001201008962667947,
+      "nrmse_train_range": 0.012301583688961091,
+      "nrmse_own_range": 0.012301583688961091
+    },
+    "gm_S": {
+      "rmse": 0.0032276645929856375,
+      "mae": 0.0023415530550718743,
+      "nrmse_train_range": 0.038933490189027184,
+      "nrmse_own_range": 0.038933490189027184
+    }
+  },
+  "bounds_and_protocol_selected_using_cv": false
+}
